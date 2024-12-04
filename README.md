@@ -1,1 +1,0 @@
-Welcome to the master-level course CS-E4740 Federated Learning. 
