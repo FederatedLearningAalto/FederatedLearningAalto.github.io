@@ -1,0 +1,5 @@
+title: "My Minimal Jekyll Site"
+description: "A simple Jekyll site for GitHub Pages"
+author: "Your Name"
+baseurl: "" # Leave blank for root
+url: "https://<your-username>.github.io" # Replace with your GitHub Pages URL
