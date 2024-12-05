@@ -1,7 +1,4 @@
 ---
 layout: page
-title: "Home"
+title: "CS-E4740 Federated Learning - At a Glance"
 ---
-
-# Welcome to My Jekyll Site
-This is a minimal Jekyll site hosted on GitHub Pages.
