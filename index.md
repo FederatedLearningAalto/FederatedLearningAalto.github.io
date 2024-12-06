@@ -3,6 +3,7 @@ layout: page
 title: "CS-E4740 Federated Learning - At a Glance"
 ---
 
-| Date       | Lecture              | Video                                   | Lecture Notes        | Assignment         |
-|-------------|--------------------------|-----------------------------------------|----------------------|--------------------|
-| TBA  | TBA | TBA                       | TBA  | TBA |
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
