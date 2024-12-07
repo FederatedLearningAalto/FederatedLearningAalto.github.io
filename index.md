@@ -3,7 +3,7 @@ layout: page
 title: "CS-E4740 Federated Learning - At a Glance"
 ---
 
-<table>
+<table class="custom-table">
   <thead>
     <tr>
       <th>Date</th>
