@@ -15,25 +15,34 @@ title: "CS-E4740 Federated Learning - At a Glance"
   </thead>
   <tbody>
     <tr>
-      <td>2024-01-08</td>
-      <td>Introduction to Federated Learning</td>
-      <td><a href="https://youtube.com/example-link">Watch</a></td>
-      <td><a href="https://example.com/notes1.pdf">Download</a></td>
-      <td><a href="https://example.com/assignment1.pdf">Complete</a></td>
+      <td>TBA</td>
+      <td>Welcome to the Course!</td>
+      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FL_LectureNotes.pdf">TBA</a></td>
+      <td><a href="">TBA</a></td>
     </tr>
     <tr>
-      <td>2024-01-15</td>
-      <td>Privacy in Federated Learning</td>
-      <td><a href="https://youtube.com/example-link2">Watch</a></td>
-      <td><a href="https://example.com/notes2.pdf">Download</a></td>
-      <td><a href="https://example.com/assignment2.pdf">Complete</a></td>
+      <td>TBA</td>
+      <td>Machine Learning Refresher</td>
+      <td><a href="https://www.youtube.com/@alexjung111">Watch</a></td>
+      <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FL_LectureNotes.pdf">TBA</a></td>
+      <td><a href="">TBA</a></td>
     </tr>
-    <tr>
-      <td>2024-01-22</td>
-      <td>Optimization Techniques</td>
-      <td><a href="https://youtube.com/example-link3">Watch</a></td>
-      <td><a href="https://example.com/notes3.pdf">Download</a></td>
-      <td><a href="https://example.com/assignment3.pdf">Complete</a></td>
+      <tr>
+      <td>TBA</td>
+      <td>Federated Learning</td>
+      <td><a href="https://www.youtube.com/@alexjung111">Watch</a></td>
+      <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FL_LectureNotes.pdf">TBA</a></td>
+      <td><a href="">TBA</a></td>
     </tr>
+       </tr>
+      <tr>
+      <td>TBA</td>
+      <td>FL Design Principle</td>
+      <td><a href="https://www.youtube.com/@alexjung111">Watch</a></td>
+      <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FL_LectureNotes.pdf">TBA</a></td>
+      <td><a href="">TBA</a></td>
+    </tr>
+
   </tbody>
 </table>
