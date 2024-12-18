@@ -37,14 +37,14 @@ title: "CS-E4740 Federated Learning - At a Glance"
     </tr>
     <tr>
       <td>TBA</td>
-      <td>Gradient Methods</td>
+      <td>FL Algorithms</td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FL_LectureNotes.pdf">TBA</a></td>
       <td><a href="">TBA</a></td>
     </tr>
     <tr>
       <td>TBA</td>
-      <td>FL Algorithms</td>
+      <td>Trustworthy FL</td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FL_LectureNotes.pdf">TBA</a></td>
       <td><a href="">TBA</a></td>
