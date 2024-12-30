@@ -8,6 +8,7 @@ title: "CS-E4740 Federated Learning - At a Glance"
     <tr>
       <th>Date</th>
       <th>Round</th>
+      <th>Slides</th>
       <th>YouTube</th>
       <th>FLBook</th>
       <th>Assignment</th>
@@ -16,7 +17,8 @@ title: "CS-E4740 Federated Learning - At a Glance"
   <tbody>
     <tr>
       <td>TBA</td>
-      <td>Welcome/ML Refresher</td>
+      <td>Intro/ML Basics</td>
+      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
       <td><a href="">TBA</a></td>
@@ -25,12 +27,14 @@ title: "CS-E4740 Federated Learning - At a Glance"
       <td>TBA</td>
       <td>From ML to FL</td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 3,7</a></td>
       <td><a href="">TBA</a></td>
     </tr>
     <tr>
       <td>TBA</td>
       <td>FL Design Principle</td>
+      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 4</a></td>
       <td><a href="">TBA</a></td>
@@ -39,12 +43,14 @@ title: "CS-E4740 Federated Learning - At a Glance"
       <td>TBA</td>
       <td>FL Algorithms</td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 5</a></td>
       <td><a href="">TBA</a></td>
     </tr>
     <tr>
       <td>TBA</td>
       <td>FL Flavours</td>
+	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
          <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 6</a></td>
       <td><a href="">TBA</a></td>
@@ -52,6 +58,7 @@ title: "CS-E4740 Federated Learning - At a Glance"
     <tr>
       <td>TBA</td>
       <td>Trustworthy FL</td>
+	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 8,9,10</a></td>
       <td><a href="">TBA</a></td>
