@@ -6,11 +6,11 @@ permalink: /paper-review/
 
 # Paper Review 
 
-The 2025 edition of the course CS-E4740 includes the option to complete a paper review instead 
-(or on top) of the regular assignments. Below is a curated list of research papers for students to 
-choose from. These papers focus on federated learning, covering foundational concepts, advanced 
-techniques, and real-world applications. The goal of the review is to deepen your understanding of federated 
-learning and improve your critical analysis skills.
+The 2025 edition of the course CS-E4740 includes the option to complete a paper review instead (or on top) of the regular 
+assignments. Completing a review will deepen your understanding of federated learning and improve your critical analysis 
+skills. Below is a curated list of research papers for students to choose from. These papers focus on federated learning, 
+covering foundational concepts, advanced techniques, and real-world applications. The main focus of your review should 
+be how the methods presented in the paper relate to the theoretical concepts and algorithms covered in our course. 
 
 ## Instructions
 1. **Choose a Paper:** Select a paper from the list below or propose one (with instructor approval).
