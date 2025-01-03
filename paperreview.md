@@ -64,6 +64,10 @@ be how the methods presented in the paper relate to the theoretical concepts and
 - Li, T., et al. (2020). "Federated Optimization in Heterogeneous Networks."
   - [DOI:10.48550/arXiv.1812.06127](https://arxiv.org/abs/1812.06127)
   - Discusses optimization techniques for federated learning in settings with non-IID data.
+  
+- Douillard, A., et.al. (2023). "DiLoCo: Distributed Low-Communication Training of Language Models."
+  - [DOI:10.48550/arXiv.2311.08105](https://arxiv.org/abs/2311.08105)
+  - Proposes methods for distributed training of language models with reduced communication overhead.
 
 ## Propose a Paper
 If you wish to review a paper not listed here, please email [your email address] with the title, authors, and a brief justification for your choice.
