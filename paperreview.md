@@ -45,6 +45,11 @@ be how the methods presented in the paper relate to the theoretical concepts and
 - Bonawitz, K., et al. (2017). "Practical Secure Aggregation for Privacy-Preserving Machine Learning."
   - [DOI:10.1145/3133956.3133982](https://doi.org/10.1145/3133956.3133982)
   - Proposes a secure aggregation protocol to protect data during training.
+  
+ - J. Geiping, et al. (2017). "Inverting Gradients - How easy is it to break privacy in federated learning?"
+  - [abstract](https://papers.nips.cc/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html)
+ 
+  
 
 ### Optimization and Communication Efficiency
 - Smith, V., et al. (2017). "Federated Multi-Task Learning."
@@ -55,7 +60,7 @@ be how the methods presented in the paper relate to the theoretical concepts and
   - [DOI:10.48550/arXiv.1910.01991](https://arxiv.org/abs/1910.01991)
   - Introduces a clustered approach to federated learning for heterogeneous data.
 
-### Federated Learning in Practice
+### Federated Learning Applications
 
 - Yang, Q., et al. (2019). "Federated Machine Learning: Concept and Applications."
   - [DOI:10.1145/3298981](https://doi.org/10.1145/3298981)
@@ -68,6 +73,15 @@ be how the methods presented in the paper relate to the theoretical concepts and
 - Douillard, A., et.al. (2023). "DiLoCo: Distributed Low-Communication Training of Language Models."
   - [DOI:10.48550/arXiv.2311.08105](https://arxiv.org/abs/2311.08105)
   - Proposes methods for distributed training of language models with reduced communication overhead.
+  
+- N. Mendes, et.al. (2024) "Federated learning framework for prediction of net energy demand in transactive energy communities." 
+
+ - Q Arooj (2024), "FedWindT: Federated learning assisted transformer architecture for collaborative and secure wind power forecasting in diverse conditions."
+ 
+- R. Doriguzzi-Corin, D. Siracusa (2024), "FLAD: Adaptive Federated Learning for DDoS attack detection."
+Computers & Security,
+Volume 137,
+  
 
 ## Propose a Paper
 If you wish to review a paper not listed here, please email [your email address] with the title, authors, and a brief justification for your choice.
