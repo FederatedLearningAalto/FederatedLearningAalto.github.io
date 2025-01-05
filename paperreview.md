@@ -77,26 +77,46 @@ between estimating cluster identities and optimizing model parameters for user c
   - [DOI:10.48550/arXiv.2311.08105](https://arxiv.org/abs/2311.08105)
   - Proposes methods for distributed training of language models with reduced communication overhead.
   
-- N. Mendes, et.al. (2024) "Federated learning framework for prediction of net energy demand in transactive energy communities." 
+- Mendes, N., et.al. (2024). "Federated Learning Framework for Prediction of Net Energy Demand in Transactive Energy Communities."
+  - [DOI:10.1016/j.segan.2024.101522](https://doi.org/10.1016/j.segan.2024.101522)
+  - Proposes a federated learning framework that enables accurate prediction of net energy demand in 
+  transactive energy communities. The approach allows individual buildings to collaboratively train models 
+  without sharing private data, enhancing both privacy and prediction accuracy. 
 
  - Q Arooj (2024), "FedWindT: Federated learning assisted transformer architecture for collaborative and secure wind power forecasting in diverse conditions."
  
-- R. Doriguzzi-Corin, D. Siracusa (2024), "FLAD: Adaptive Federated Learning for DDoS attack detection."
-Computers & Security,
-Volume 137,
-
+ - Arooj, Q. (2024). "FedWindT: Federated Learning Assisted Transformer Architecture for Collaborative and Secure Wind Power Forecasting in Diverse Conditions."
+  - [DOI:10.1016/j.energy.2024.133072](https://doi.org/10.1016/j.energy.2024.133072)
+  - Introduces FedWindT, an innovative model that combines transformer neural architectures with federated learning to enhance wind power prediction.
+ 
+- Doriguzzi-Corin, R., et.al. (2023). "FLAD: Adaptive Federated Learning for DDoS Attack Detection."
+  - [DOI:10.1016/j.cose.2023.103597](https://doi.org/10.1016/j.cose.2023.103597)
+  - Introduces FLAD, an adaptive federated learning approach designed to enhance DDoS attack detection. 
+  
 ### Privacy and Security in Federated Learning
 
 - Geyer, R. C., Klein, T., & Nabi, M. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
   - [DOI:10.1109/GLOCOM.2017.8253396](https://doi.org/10.1109/GLOCOM.2017.8253396)
   - Explores privacy preservation in federated learning through differential privacy.
+  
+  - Geyer, R. et.al. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
+  - [arXiv:1712.07557](https://arxiv.org/abs/1712.07557)
+  - Proposes an algorithm for client-sided differential privacy in federated learning, aiming to conceal individual 
+     clients' contributions during training. The study demonstrates that, with a sufficiently large number of 
+     participating clients, the procedure can maintain client-level differential privacy with minimal impact on model performance.
+
 
 - Bonawitz, K., et al. (2017). "Practical Secure Aggregation for Privacy-Preserving Machine Learning."
   - [DOI:10.1145/3133956.3133982](https://doi.org/10.1145/3133956.3133982)
   - Proposes a secure aggregation protocol to protect data during training.
   
- - J. Geiping, et al. (2017). "Inverting Gradients - How easy is it to break privacy in federated learning?"
-  - [abstract](https://papers.nips.cc/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html)
+ - Geiping, J., et.al. (2020). "Inverting Gradients – How Easy Is It to Break Privacy in Federated Learning?"
+  - [arXiv:2003.14053](https://arxiv.org/abs/2003.14053)
+  - Demonstrates that sharing parameter gradients in federated learning can lead to significant privacy breaches. 
+  The authors show that it's possible to reconstruct high-resolution images from gradient information, even in trained 
+  deep networks, challenging the assumption that federated learning inherently provides data privacy.
+
+
   
 
 ## Propose a Paper
