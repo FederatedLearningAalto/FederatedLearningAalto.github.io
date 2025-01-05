@@ -37,28 +37,31 @@ be how the methods presented in the paper relate to the theoretical concepts and
   - [DOI:10.48550/arXiv.1912.04977](https://arxiv.org/abs/1912.04977)
   - A comprehensive survey of the state-of-the-art in federated learning and its challenges.
 
-### Privacy and Security in Federated Learning
-- Geyer, R. C., Klein, T., & Nabi, M. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
-  - [DOI:10.1109/GLOCOM.2017.8253396](https://doi.org/10.1109/GLOCOM.2017.8253396)
-  - Explores privacy preservation in federated learning through differential privacy.
+### Distributed Optimization for Federated Learning
 
-- Bonawitz, K., et al. (2017). "Practical Secure Aggregation for Privacy-Preserving Machine Learning."
-  - [DOI:10.1145/3133956.3133982](https://doi.org/10.1145/3133956.3133982)
-  - Proposes a secure aggregation protocol to protect data during training.
-  
- - J. Geiping, et al. (2017). "Inverting Gradients - How easy is it to break privacy in federated learning?"
-  - [abstract](https://papers.nips.cc/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html)
- 
-  
-
-### Optimization and Communication Efficiency
 - Smith, V., et al. (2017). "Federated Multi-Task Learning."
   - [DOI:10.48550/arXiv.1705.10467](https://arxiv.org/abs/1705.10467)
   - Extends federated learning to handle multiple related tasks across clients.
 
+- 
+
+### Federated Learning Flavours 
+
 - Sattler, F., et al. (2019). "Clustered Federated Learning: Model-Agnostic Distributed Multi-Task Optimization under Privacy Constraints."
   - [DOI:10.48550/arXiv.1910.01991](https://arxiv.org/abs/1910.01991)
   - Introduces a clustered approach to federated learning for heterogeneous data.
+
+- Ghosh, A., et.al. (2021). "An Efficient Framework for Clustered Federated Learning."
+  - [arXiv:2006.04088](https://arxiv.org/abs/2006.04088)
+  - Proposes the Iterative Federated Clustering Algorithm (IFCA) for clustered federated learning, which alternates 
+between estimating cluster identities and optimizing model parameters for user clusters via gradient descent. 
+
+- Sui, Y.,et.al. (2022). "Find Your Friends: Personalized Federated Learning with the Right Collaborators."
+  - [arXiv:2210.06597](https://arxiv.org/abs/2210.06597)
+  - Introduces FedeRiCo, a decentralized framework that enables clients in federated learning to select 
+      optimal collaborators based on local data distributions.
+
+
 
 ### Federated Learning Applications
 
@@ -81,6 +84,19 @@ be how the methods presented in the paper relate to the theoretical concepts and
 - R. Doriguzzi-Corin, D. Siracusa (2024), "FLAD: Adaptive Federated Learning for DDoS attack detection."
 Computers & Security,
 Volume 137,
+
+### Privacy and Security in Federated Learning
+
+- Geyer, R. C., Klein, T., & Nabi, M. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
+  - [DOI:10.1109/GLOCOM.2017.8253396](https://doi.org/10.1109/GLOCOM.2017.8253396)
+  - Explores privacy preservation in federated learning through differential privacy.
+
+- Bonawitz, K., et al. (2017). "Practical Secure Aggregation for Privacy-Preserving Machine Learning."
+  - [DOI:10.1145/3133956.3133982](https://doi.org/10.1145/3133956.3133982)
+  - Proposes a secure aggregation protocol to protect data during training.
+  
+ - J. Geiping, et al. (2017). "Inverting Gradients - How easy is it to break privacy in federated learning?"
+  - [abstract](https://papers.nips.cc/paper/2020/hash/c4ede56bbd98819ae6112b20ac6bf145-Abstract.html)
   
 
 ## Propose a Paper
