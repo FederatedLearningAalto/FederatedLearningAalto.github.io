@@ -109,7 +109,8 @@ between estimating cluster identities and optimizing model parameters for user c
   
 
 ## Propose a Paper
-If you wish to review a paper not listed here, please email [your email address] with the title, authors, and a brief justification for your choice.
+If you wish to review a paper not listed here, please email course instructor with the title, 
+authors, and a brief justification for your choice.
 
 ---
 
