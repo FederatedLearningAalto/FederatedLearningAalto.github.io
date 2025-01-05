@@ -43,7 +43,15 @@ be how the methods presented in the paper relate to the theoretical concepts and
   - [DOI:10.48550/arXiv.1705.10467](https://arxiv.org/abs/1705.10467)
   - Extends federated learning to handle multiple related tasks across clients.
 
-- 
+-- Scaman, K., et.al. (2019). "Optimal Convergence Rates for Convex Distributed Optimization in Networks."
+  - [Journal of Machine Learning Research, 20(159):1-31](https://jmlr.org/papers/v20/19-543.html)
+  - This work provides a theoretical analysis of distributed optimization of convex functions using a network of 
+  computing units (= a Federated Learning network). 
+  
+ - Sarcheshmehpour, Y., et.al. (2021). "Federated Learning from Big Data Over Networks."
+   - [ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing, pp. 3055-3059](https://doi.org/10.1109/ICASSP39728.2021.9414903)
+   - Applies a generic primal-dual method from convex optimization to solve GTVMin. 
+
 
 ### Federated Learning Flavours 
 
@@ -87,6 +95,10 @@ between estimating cluster identities and optimizing model parameters for user c
 - Doriguzzi-Corin, R., et.al. (2023). "FLAD: Adaptive Federated Learning for DDoS Attack Detection."
   - [DOI:10.1016/j.cose.2023.103597](https://doi.org/10.1016/j.cose.2023.103597)
   - Introduces FLAD, an adaptive federated learning approach designed to enhance DDoS attack detection. 
+
+- Jung, A., et.al. (2021). "Local Graph Clustering With Network Lasso."
+  - [IEEE Signal Processing Letters, 28, 106-110](https://doi.org/10.1109/LSP.2020.3045832)
+  - Formulates local graph clustering as an instance of GTVMin. 
   
 ### Privacy and Security in Federated Learning
 
@@ -104,9 +116,6 @@ between estimating cluster identities and optimizing model parameters for user c
   - Demonstrates that sharing parameter gradients in federated learning can lead to significant privacy breaches. 
   The authors show that it's possible to reconstruct high-resolution images from gradient information, even in trained 
   deep networks, challenging the assumption that federated learning inherently provides data privacy.
-
-
-  
 
 ## Propose a Paper
 If you wish to review a paper not listed here, please email course instructor with the title, 
