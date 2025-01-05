@@ -80,7 +80,7 @@ between estimating cluster identities and optimizing model parameters for user c
   - Proposes a federated learning framework that enables accurate prediction of net energy demand in 
   transactive energy communities.
 
- - Arooj, Q. (2024). "FedWindT: Federated Learning Assisted Transformer Architecture for Collaborative and Secure Wind Power Forecasting in Diverse Conditions."
+- Arooj, Q. (2024). "FedWindT: Federated Learning Assisted Transformer Architecture for Collaborative and Secure Wind Power Forecasting in Diverse Conditions."
   - [DOI:10.1016/j.energy.2024.133072](https://doi.org/10.1016/j.energy.2024.133072)
   - Introduces FedWindT, an innovative model that combines transformer neural architectures with federated learning to enhance wind power prediction.
  
