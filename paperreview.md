@@ -35,23 +35,30 @@ methods are used (e.g., gradient based methods)?
 - McMahan, H. B., et al. (2017). "Communication-Efficient Learning of Deep Networks from Decentralized Data."
   - [DOI:10.48550/arXiv.1602.05629](https://arxiv.org/abs/1602.05629)
   - A pioneering work that introduces the concept of federated learning.
-
-- Kairouz, P., et al. (2019). "Advances and Open Problems in Federated Learning."
-  - [DOI:10.48550/arXiv.1912.04977](https://arxiv.org/abs/1912.04977)
-  - A comprehensive survey of the state-of-the-art in federated learning and its challenges.
-
-### Distributed Optimization for Federated Learning
-
+        
 - Smith, V., et al. (2017). "Federated Multi-Task Learning."
   - [DOI:10.48550/arXiv.1705.10467](https://arxiv.org/abs/1705.10467)
   - Extends federated learning to handle multiple related tasks across clients.
 
--- Scaman, K., et.al. (2019). "Optimal Convergence Rates for Convex Distributed Optimization in Networks."
+- Konečný, J., et.al. (2016). "Federated Optimization: Distributed Machine Learning for On-Device Intelligence."
+  - [arXiv:1610.02527](https://arxiv.org/abs/1610.02527)
+  - Introduces federated optimization as a framework for training machine learning models across distributed and heterogeneous devices. 
+
+
+
+### Distributed Optimization for Federated Learning
+
+- Boyd, S., Parikh, N., & Chu, E. (2010). "Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers."
+  - [Foundations and Trends® in Machine Learning, 3(1), pp. 1–122](https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf)
+  - Provides a comprehensive review of the Alternating Direction Method of Multipliers (ADMM) and its applications in distributed optimization 
+      and statistical learning. 
+
+- Scaman, K., et.al. (2019). "Optimal Convergence Rates for Convex Distributed Optimization in Networks."
   - [Journal of Machine Learning Research, 20(159):1-31](https://jmlr.org/papers/v20/19-543.html)
   - This work provides a theoretical analysis of distributed optimization of convex functions using a network of 
   computing units (= a Federated Learning network). 
   
- - Sarcheshmehpour, Y., et.al. (2021). "Federated Learning from Big Data Over Networks."
+- Sarcheshmehpour, Y., et.al. (2021). "Federated Learning from Big Data Over Networks."
    - [ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing, pp. 3055-3059](https://doi.org/10.1109/ICASSP39728.2021.9414903)
    - Applies a generic primal-dual method from convex optimization to solve GTVMin. 
 
