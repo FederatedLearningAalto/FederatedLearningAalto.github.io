@@ -25,7 +25,7 @@ title: "CS-E4740 Federated Learning - At a Glance"
     </tr>
     <tr>
       <td>TBA</td>
-      <td>From ML to FL</td>
+      <td>FL Networks</td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 3,7</a></td>
