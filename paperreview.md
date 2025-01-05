@@ -61,8 +61,6 @@ between estimating cluster identities and optimizing model parameters for user c
   - Introduces FedeRiCo, a decentralized framework that enables clients in federated learning to select 
       optimal collaborators based on local data distributions.
 
-
-
 ### Federated Learning Applications
 
 - Yang, Q., et al. (2019). "Federated Machine Learning: Concept and Applications."
@@ -80,11 +78,8 @@ between estimating cluster identities and optimizing model parameters for user c
 - Mendes, N., et.al. (2024). "Federated Learning Framework for Prediction of Net Energy Demand in Transactive Energy Communities."
   - [DOI:10.1016/j.segan.2024.101522](https://doi.org/10.1016/j.segan.2024.101522)
   - Proposes a federated learning framework that enables accurate prediction of net energy demand in 
-  transactive energy communities. The approach allows individual buildings to collaboratively train models 
-  without sharing private data, enhancing both privacy and prediction accuracy. 
+  transactive energy communities.
 
- - Q Arooj (2024), "FedWindT: Federated learning assisted transformer architecture for collaborative and secure wind power forecasting in diverse conditions."
- 
  - Arooj, Q. (2024). "FedWindT: Federated Learning Assisted Transformer Architecture for Collaborative and Secure Wind Power Forecasting in Diverse Conditions."
   - [DOI:10.1016/j.energy.2024.133072](https://doi.org/10.1016/j.energy.2024.133072)
   - Introduces FedWindT, an innovative model that combines transformer neural architectures with federated learning to enhance wind power prediction.
