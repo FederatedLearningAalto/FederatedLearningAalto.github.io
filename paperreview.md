@@ -95,16 +95,10 @@ between estimating cluster identities and optimizing model parameters for user c
   
 ### Privacy and Security in Federated Learning
 
-- Geyer, R. C., Klein, T., & Nabi, M. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
-  - [DOI:10.1109/GLOCOM.2017.8253396](https://doi.org/10.1109/GLOCOM.2017.8253396)
-  - Explores privacy preservation in federated learning through differential privacy.
-  
   - Geyer, R. et.al. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
   - [arXiv:1712.07557](https://arxiv.org/abs/1712.07557)
   - Proposes an algorithm for client-sided differential privacy in federated learning, aiming to conceal individual 
-     clients' contributions during training. The study demonstrates that, with a sufficiently large number of 
-     participating clients, the procedure can maintain client-level differential privacy with minimal impact on model performance.
-
+     clients' contributions during training. 
 
 - Bonawitz, K., et al. (2017). "Practical Secure Aggregation for Privacy-Preserving Machine Learning."
   - [DOI:10.1145/3133956.3133982](https://doi.org/10.1145/3133956.3133982)
