@@ -16,8 +16,11 @@ be how the methods presented in the paper relate to the theoretical concepts and
 1. **Choose a Paper:** Select a paper from the list below or propose one (with instructor approval).
 2. **Review Structure:** Your review should include the following sections:
    - **Summary:** Summarize the main contributions and methodology.
-   - **Comparison to Generalized Total Variation Framework:** Compare the proposed methods with the GTV minimization 
-   framework discussed in the lectures and the [Federated Learning Book](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf). Highlight similarities, differences, and how the methods build upon or diverge from the framework.
+   - **Put Into Context:** Interpret the paper in terms of the concepts taught in our course 
+and the [Federated Learning Book](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf). 
+Try to answer questions like: Which variant (if any) of GTV minimization does the paper 
+study? Does the paper discuss a specific choice for the federated learning network? What optimisation 
+methods are used (e.g., gradient based methods)? 
    - **Strengths:** Discuss what the paper does well.
    - **Weaknesses:** Point out limitations or areas for improvement.
 3. **Deliverables:** 
@@ -100,6 +103,19 @@ between estimating cluster identities and optimizing model parameters for user c
   - [IEEE Signal Processing Letters, 28, 106-110](https://doi.org/10.1109/LSP.2020.3045832)
   - Formulates local graph clustering as an instance of GTVMin. 
   
+### Cyber-Security in Federated Learning
+
+- Lugosi, G., & Mendelson, S. (2021). "Robust Multivariate Mean Estimation: The Optimality of Trimmed Mean."
+  - [The Annals of Statistics, 49(1), pp. 393–410](https://doi.org/10.1214/20-AOS1961)
+  - Investigates robust estimation of the multivariate mean under heavy-tailed distributions. The paper introduces a 
+  trimmed mean estimator and proves its optimality in terms of minimax rates. The results demonstrate that the proposed 
+  method achieves robust performance even in the presence of outliers or heavy-tailed data.
+  
+- Damaskinos, G., et.al. (2018). "Asynchronous Byzantine Machine Learning (the case of SGD)."
+  - [Proceedings of the 35th International Conference on Machine Learning (ICML), PMLR Volume 80, pp. 1145–1154](http://proceedings.mlr.press/v80/damaskinos18a/damaskinos18a.pdf)
+  -  Proposes a framework for asynchronous stochastic gradient descent (SGD) that is resilient to Byzantine faults. 
+
+  
 ### Privacy and Security in Federated Learning
 
 - Geyer, R. et.al. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
@@ -116,6 +132,19 @@ between estimating cluster identities and optimizing model parameters for user c
   - Demonstrates that sharing parameter gradients in federated learning can lead to significant privacy breaches. 
   The authors show that it's possible to reconstruct high-resolution images from gradient information, even in trained 
   deep networks, challenging the assumption that federated learning inherently provides data privacy.
+
+- Duchi, J. C., Jordan, M. I., & Wainwright, M. J. (2016). "Minimax Optimal Procedures for Locally Private Estimation."
+  - [arXiv:1604.02390](https://arxiv.org/pdf/1604.02390)
+  -  The paper provides fundamental limits ("minimax bounds") for a range of estimation problems, including mean estimation 
+      and linear regression, and introduces procedures that achieve these rates. The work highlights the trade-offs between privacy guarantees and statistical efficiency.
+
+- Cai, T. T., Wang, Y., & Zhang, L. (2021). "The Cost of Privacy: Optimal Rates of Convergence for Parameter Estimation with Differential Privacy."
+  - [The Annals of Statistics, 49(5), pp. 2825–2850](https://doi.org/10.1214/21-AOS2058)
+  -  The paper derives fundamental limits ("minimax optimal rates of convergence") for mean estimation and linear regression, providing lower bounds and 
+      proposing algorithms that achieve the optimal rates. The work establishes a comprehensive understanding of the cost of privacy in statistical estimation.
+
+
+
 
 ## Propose a Paper
 If you wish to review a paper not listed here, please email course instructor with the title, 
