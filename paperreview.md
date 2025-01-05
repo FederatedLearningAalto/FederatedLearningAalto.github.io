@@ -90,7 +90,7 @@ between estimating cluster identities and optimizing model parameters for user c
   
 ### Privacy and Security in Federated Learning
 
-  - Geyer, R. et.al. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
+- Geyer, R. et.al. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
   - [arXiv:1712.07557](https://arxiv.org/abs/1712.07557)
   - Proposes an algorithm for client-sided differential privacy in federated learning, aiming to conceal individual 
      clients' contributions during training. 
@@ -99,7 +99,7 @@ between estimating cluster identities and optimizing model parameters for user c
   - [DOI:10.1145/3133956.3133982](https://doi.org/10.1145/3133956.3133982)
   - Proposes a secure aggregation protocol to protect data during training.
   
- - Geiping, J., et.al. (2020). "Inverting Gradients – How Easy Is It to Break Privacy in Federated Learning?"
+- Geiping, J., et.al. (2020). "Inverting Gradients – How Easy Is It to Break Privacy in Federated Learning?"
   - [arXiv:2003.14053](https://arxiv.org/abs/2003.14053)
   - Demonstrates that sharing parameter gradients in federated learning can lead to significant privacy breaches. 
   The authors show that it's possible to reconstruct high-resolution images from gradient information, even in trained 
