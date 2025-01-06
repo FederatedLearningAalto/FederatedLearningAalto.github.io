@@ -149,6 +149,12 @@ between estimating cluster identities and optimizing model parameters for user c
   - [The Annals of Statistics, 49(5), pp. 2825–2850](https://doi.org/10.1214/21-AOS2058)
   -  The paper derives fundamental limits ("minimax optimal rates of convergence") for mean estimation and linear regression, providing lower bounds and 
       proposing algorithms that achieve the optimal rates. The work establishes a comprehensive understanding of the cost of privacy in statistical estimation.
+ 
+ - Asi, H., Feldman, V., & Talwar, K. (2022). "Optimal Algorithms for Mean Estimation under Local Differential Privacy."
+  - [arXiv:2205.02466](https://arxiv.org/pdf/2205.02466)
+  - This paper investigates the problem of mean estimation under local differential privacy constraints. 
+      The authors analyze existing algorithms and introduce optimized locally private randomizers.
+
 
 
 
