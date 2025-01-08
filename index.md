@@ -16,10 +16,10 @@ title: "CS-E4740 Federated Learning - At a Glance"
   </thead>
   <tbody>
     <tr>
-      <td>TBA</td>
+      <td>24-Feb</td>
       <td>Intro/ML Basics</td>
-      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
-      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="{{ site.baseurl }}/slides/Lec_Introduction.pdf">slides</a></td>
+      <td><a href="https://youtu.be/xaAvS_OGGfQ">video</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
       <td><a href="">TBA</a></td>
     </tr>
