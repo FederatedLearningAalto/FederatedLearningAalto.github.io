@@ -154,6 +154,11 @@ between estimating cluster identities and optimizing model parameters for user c
   - [arXiv:2205.02466](https://arxiv.org/pdf/2205.02466)
   - This paper investigates the problem of mean estimation under local differential privacy constraints. 
       The authors analyze existing algorithms and introduce optimized locally private randomizers.
+      
+- Duchi, J. C., Jordan, M. I., & Wainwright, M. J. (2014). "Privacy Aware Learning." 
+  - [J. ACM, 61(6), Article 38](https://doi.org/10.1145/2666468) 
+  - This paper explores methods for privacy-aware learning in the context of distributed data. 
+      The authors propose frameworks that balance utility and privacy by leveraging formal privacy guarantees.
 
 
 
