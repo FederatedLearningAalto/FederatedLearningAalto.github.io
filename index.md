@@ -18,8 +18,8 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
   <thead>
     <tr>
       <th>Module</th>
-      <th>Lecture</th>
-      <th>Exercise</th>
+      <th>Lec.</th>
+      <th>Exerc.</th>
       <th>Slides</th>
       <th>YouTube</th>
       <th>FLBook</th>
