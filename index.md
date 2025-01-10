@@ -3,10 +3,16 @@ layout: page
 title: "CS-E4740 Federated Learning - At a Glance"
 ---
 
-This course spans six modules (M1,...M6). Each module consists of a lecture (L1,...,L6) and 
-an assignment (A1,...,A6). Lectures take place each Monday during 16:15-18.00. Each assignment 
-will be discussed during an Exercise session each Wed. during 16:15-18.00. Below you find the 
-precise dates for lectures, exercises and the submission deadlines (DL) for the assignments. 
+This course is structured into six modules (M1 through M6). Each module comprises:
+
+- **Lecture**: Delivered on **Mondays from 16:15 to 18:00**.
+- **Assignment**: Accompanying each lecture, assignments require to implement concepts in Python. 
+
+Exercise sessions are held on **Wednesdays from 16:15 to 18:00** to introduce and discuss the assignments.
+
+## Schedule
+
+Below are the specific dates for lectures, exercise sessions, and assignment submission deadlines (DL).
 
 <table class="custom-table">
   <thead>
