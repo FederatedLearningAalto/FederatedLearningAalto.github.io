@@ -6,18 +6,19 @@ permalink: /paper-review/
 
 # Paper Review 
 
-The 2025 edition of the course CS-E4740 includes the option to complete a paper 
-review instead (or on top) of the regular assignments. Completing a review will 
-deepen your understanding of federated learning and improve your critical analysis skills. 
+The 2025 edition of the course **CS-E4740 Federared Learning** includes the option to 
+complete a paper review instead (or on top) of the regular assignments. Completing 
+a review will deepen your understanding of federated learning and improve your critical 
+analysis skills. 
 
 Below is a curated list of research papers for students to choose from. These papers 
 focus on federated learning, covering foundational concepts, advanced techniques, 
 and real-world applications. 
 
-The main focus of your review should be comparing and interpreting the methods presented 
-in the paper against the concepts in our course. Your review should answer questions like: 
-Which instance of GTVMin does the paper use? Which optimization method do the authors 
-use to solve GTVMin? What is the ultimate performance criterion of the studied FL methods?
+Your review should compare and interpret the chosen paper against the concepts in our course. 
+Try to answer questions like: Which instance of GTVMin does the paper use? Which optimization 
+method do the authors use to solve GTVMin? What is the ultimate performance criterion of the 
+studied FL methods?
 
 ## Instructions
 1. **Choose a Paper:** Select a paper from the list below or propose one (with instructor approval).
