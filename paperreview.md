@@ -6,17 +6,24 @@ permalink: /paper-review/
 
 # Paper Review 
 
-The 2025 edition of the course CS-E4740 includes the option to complete a paper review instead (or on top) of the regular 
-assignments. Completing a review will deepen your understanding of federated learning and improve your critical analysis 
-skills. Below is a curated list of research papers for students to choose from. These papers focus on federated learning, 
-covering foundational concepts, advanced techniques, and real-world applications. The main focus of your review should 
-be how the methods presented in the paper relate to the theoretical concepts and algorithms covered in our course. 
+The 2025 edition of the course CS-E4740 includes the option to complete a paper 
+review instead (or on top) of the regular assignments. Completing a review will 
+deepen your understanding of federated learning and improve your critical analysis skills. 
+
+Below is a curated list of research papers for students to choose from. These papers 
+focus on federated learning, covering foundational concepts, advanced techniques, 
+and real-world applications. 
+
+The main focus of your review should be comparing and interpreting the methods presented 
+in the paper against the concepts in our course. Your review should answer questions like: 
+Which instance of GTVMin does the paper use? Which optimization method do the authors 
+use to solve GTVMin? What is the ultimate performance criterion of the studied FL methods?
 
 ## Instructions
 1. **Choose a Paper:** Select a paper from the list below or propose one (with instructor approval).
 2. **Review Structure:** Your review should include the following sections:
    - **Summary:** Summarize the main contributions and methodology.
-   - **Put Into Context:** Interpret the paper in terms of the concepts taught in our course 
+   - **Interpretation:** Interpret the paper in terms of the concepts taught in our course 
 and the [Federated Learning Book](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf). 
 Try to answer questions like: Which variant (if any) of GTV minimization does the paper 
 study? Does the paper discuss a specific choice for the federated learning network? What optimisation 
@@ -110,7 +117,7 @@ between estimating cluster identities and optimizing model parameters for user c
   - [IEEE Signal Processing Letters, 28, 106-110](https://doi.org/10.1109/LSP.2020.3045832)
   - Formulates local graph clustering as an instance of GTVMin. 
   
-### Cyber-Security in Federated Learning
+### Robustness and Cyber-Security of Federated Learning
 
 - Lugosi, G., & Mendelson, S. (2021). "Robust Multivariate Mean Estimation: The Optimality of Trimmed Mean."
   - [The Annals of Statistics, 49(1), pp. 393–410](https://doi.org/10.1214/20-AOS1961)
@@ -121,9 +128,19 @@ between estimating cluster identities and optimizing model parameters for user c
 - Damaskinos, G., et.al. (2018). "Asynchronous Byzantine Machine Learning (the case of SGD)."
   - [Proceedings of the 35th International Conference on Machine Learning (ICML), PMLR Volume 80, pp. 1145–1154](http://proceedings.mlr.press/v80/damaskinos18a/damaskinos18a.pdf)
   -  Proposes a framework for asynchronous stochastic gradient descent (SGD) that is resilient to Byzantine faults. 
+  
+- Chang, F.-C., et.al. (2022). "Gradient Descent: Robustness to Adversarial Corruption."
+  - [OPT2022: 14th Annual Workshop on Optimization for Machine Learning](https://openreview.net/pdf?id=gNpieWW7xFR)
+  - Investigates the robustness of gradient descent to adversarially corrupted gradients.
+
+- Holland, M. J. (2021). "Scaling-Up Robust Gradient Descent Techniques."
+  - [Proceedings of the Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)](https://cdn.aaai.org/ojs/16940/16940-13-20434-1-2-20210518.pdf)
+  - Explores robust gradient descent techniques designed to scale effectively in large-scale optimization problems, 
+     with applications to adversarial and noisy environments.
+
 
   
-### Privacy and Security in Federated Learning
+### Privacy and Cyber-Security of Federated Learning
 
 - Geyer, R. et.al. (2017). "Differentially Private Federated Learning: A Client Level Perspective."
   - [arXiv:1712.07557](https://arxiv.org/abs/1712.07557)
