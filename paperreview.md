@@ -52,6 +52,16 @@ methods are used (e.g., gradient based methods)?
   - [arXiv:1610.02527](https://arxiv.org/abs/1610.02527)
   - Introduces federated optimization as a framework for training machine learning models across distributed and heterogeneous devices. 
 
+### Federated Learning Systems and Implementation
+
+- Sanchez-Iborra, R., & Skarmeta, A. F. (2020). "TinyML-Enabled Frugal Smart Objects: Challenges and Opportunities." *IEEE Circuits and Systems Magazine*, 20(3), 4–18.  
+  - [DOI:10.1109/MCAS.2020.3005467](https://doi.org/10.1109/MCAS.2020.3005467)  
+  - Explores the integration of TinyML into smart objects, addressing key challenges and opportunities for resource-constrained environments.
+
+- Dutta, L., & Bharali, S. (2021). "TinyML Meets IoT: A Comprehensive Survey." *Internet of Things*, 16, 100461.  
+  - [DOI:10.1016/j.iot.2021.100461](https://doi.org/10.1016/j.iot.2021.100461)  
+  - Provides an extensive overview of the intersection of TinyML and IoT, discussing frameworks, applications, and challenges in deploying machine learning on IoT devices.
+
 
 
 ### Distributed Optimization for Federated Learning
