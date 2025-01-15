@@ -62,6 +62,10 @@ methods are used (e.g., gradient based methods)?
   - [DOI:10.1016/j.iot.2021.100461](https://doi.org/10.1016/j.iot.2021.100461)  
   - Provides an extensive overview of the intersection of TinyML and IoT, discussing frameworks, applications, and challenges in deploying machine learning on IoT devices.
 
+-  Takezawa, Y., Sato, R., Bao, H., Niwa, K., & Yamada, M. (2023). "Beyond Exponential Graph: Communication-Efficient Topologies for Decentralized Learning via Finite-time Convergence." *Advances in Neural Information Processing Systems*, 36.  
+ - [PDF](https://papers.nips.cc/paper_files/paper/2023/file/f201b3f3d0f08c6ab46c36b9052c1b64-Paper-Conference.pdf)  
+ -  This paper studies a novel topology (graph structure) for decentralized learning that achieves both a fast consensus rate and low communication cost.
+
 
 
 ### Distributed Optimization for Federated Learning
