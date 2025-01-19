@@ -63,11 +63,13 @@ methods are used (e.g., gradient based methods)?
   - Provides an extensive overview of the intersection of TinyML and IoT, discussing frameworks, applications, and challenges in deploying machine learning on IoT devices.
 
 -  Takezawa, Y., Sato, R., Bao, H., Niwa, K., & Yamada, M. (2023). "Beyond Exponential Graph: Communication-Efficient Topologies for Decentralized Learning via Finite-time Convergence." *Advances in Neural Information Processing Systems*, 36.  
- - [PDF](https://papers.nips.cc/paper_files/paper/2023/file/f201b3f3d0f08c6ab46c36b9052c1b64-Paper-Conference.pdf)  
- -  This paper studies a novel topology (graph structure) for decentralized learning that achieves both a fast consensus rate and low communication cost.
+  - [PDF](https://papers.nips.cc/paper_files/paper/2023/file/f201b3f3d0f08c6ab46c36b9052c1b64-Paper-Conference.pdf)  
+  -  This paper studies a novel topology (graph structure) for decentralized learning that achieves both a fast consensus rate and low communication cost.
+  
+- Biswas, S., Kermarrec, A.-M., Marouani, A., Pires, R., Sharma, R., & De Vos, M. (2024). "Boosting Asynchronous Decentralized Learning with Model Fragmentation."  
+  - *arXiv e-prints*, Art. no. arXiv:2410.12918. [doi:10.48550/arXiv.2410.12918](https://doi.org/10.48550/arXiv.2410.12918)  
+  - This paper proposes a novel approach to asynchronous decentralized learning using model fragmentation, which divides models into smaller components. 
 
-- Biswas, S., Kermarrec, A.-M., Marouani, A., Pires, R., Sharma, R., and De Vos, M., (2024) “Boosting Asynchronous Decentralized Learning with Model Fragmentation”, 
-  - <i>arXiv e-prints</i>, Art. no. arXiv:2410.12918, 2024. doi:10.48550/arXiv.2410.12918.
 
 
 
