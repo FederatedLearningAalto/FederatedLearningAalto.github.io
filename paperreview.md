@@ -48,7 +48,7 @@ methods are used (e.g., gradient based methods)?
   - [DOI:10.48550/arXiv.1705.10467](https://arxiv.org/abs/1705.10467)
   - Extends federated learning to handle multiple related tasks across clients.
 
-- Konečný, J., et.al. (2016). "Federated Optimization: Distributed Machine Learning for On-Device Intelligence."
+- Konečný, J., et.al. (2016). **"Federated Optimization: Distributed Machine Learning for On-Device Intelligence."**
   - [arXiv:1610.02527](https://arxiv.org/abs/1610.02527)
   - Introduces federated optimization as a framework for training machine learning models across distributed and heterogeneous devices. 
 
@@ -62,7 +62,7 @@ methods are used (e.g., gradient based methods)?
   - [DOI:10.1016/j.iot.2021.100461](https://doi.org/10.1016/j.iot.2021.100461)  
   - Provides an extensive overview of the intersection of TinyML and IoT, discussing frameworks, applications, and challenges in deploying machine learning on IoT devices.
 
--  Takezawa, Y., Sato, R., Bao, H., Niwa, K., & Yamada, M. (2023). **"Beyond Exponential Graph: Communication-Efficient Topologies for Decentralized Learning via Finite-time Convergence."** 
+- Takezawa, Y., Sato, R., Bao, H., Niwa, K., & Yamada, M. (2023). **"Beyond Exponential Graph: Communication-Efficient Topologies for Decentralized Learning via Finite-time Convergence."** 
   - [PDF](https://papers.nips.cc/paper_files/paper/2023/file/f201b3f3d0f08c6ab46c36b9052c1b64-Paper-Conference.pdf)  
   -  This paper studies a novel topology (graph structure) for decentralized learning that achieves both a fast consensus rate and low communication cost.
   
@@ -73,6 +73,12 @@ methods are used (e.g., gradient based methods)?
 - Xing, H., Simeone, O., & Bi, S. (2020). **"Decentralized Federated Learning via SGD over Wireless D2D Networks."**  
   - IEEE 21st International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)*,  Atlanta, GA, USA, 2020, pp. 1-5.  
   - [doi:10.1109/SPAWC48557.2020.9154332](https://doi.org/10.1109/SPAWC48557.2020.9154332)
+
+- Chaves, A. J., Martín, C., Kim, K. S., Shahid, A., & Díaz, M. (2024). **"Federated Learning Meets Blockchain: A Kafka-ML Integration for Reliable Model Training Using Data Streams."**  
+  - *2024 IEEE International Conference on Big Data (BigData)*, Washington, DC, USA, pp. 7677-7686.  
+  - [DOI:10.1109/BigData62323.2024.10826034](https://doi.org/10.1109/BigData62323.2024.10826034)  
+  - This paper integrates Kafka-ML with blockchain to enhance traceability and robustness in federated learning systems, particularly for real-time data streams. The approach leverages asynchronous FL to improve efficiency and scalability.
+
 
 
 
