@@ -100,3 +100,19 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+
+sitemap:
+  exclude: ["404.html", "drafts/"]
+  changefreq: weekly
+  priority: 0.5
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      changefreq: weekly
+      priority: 0.5

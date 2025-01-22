@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "CS-E4740 Federated Learning - At a Glance"
+lastmod: 2025-01-22
+changefreq: daily
+priority: 1.0
 ---
 
 This course is structured into six modules (M1 through M6). Each module comprises:
