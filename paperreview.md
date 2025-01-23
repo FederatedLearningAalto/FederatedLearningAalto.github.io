@@ -98,6 +98,17 @@ methods are used (e.g., gradient based methods)?
 - Sarcheshmehpour, Y., et.al. (2021). **"Federated Learning from Big Data Over Networks."**
    - [ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing, pp. 3055-3059](https://doi.org/10.1109/ICASSP39728.2021.9414903)
    - Applies a generic primal-dual method from convex optimization to solve GTVMin. 
+   
+- Rikos, A. I., Jiang, W., Charalambous, T., & Johansson, K. H. (2024). **"Distributed Optimization with Finite Bit Adaptive Quantization for Efficient Communication and Precision Enhancement."**  
+  - [arXiv:2409.05418](https://arxiv.org/pdf/2409.05418)  
+  - This paper addresses the challenge of unconstrained distributed optimization where each node's local function exhibits strong convexity with Lipschitz continuous gradients. 
+      The authors propose an algorithm that enables nodes to converge to the exact optimal solution while exchanging only 3-bit quantized messages, achieving linear convergence rates.
+
+- Lin, C.-Y., Kostina, V., & Hassibi, B. (2022). **"Differentially Quantized Gradient Methods."**  
+  - [IEEE Transactions on Information Theory, 68(9): 6078-6097](https://doi.org/10.1109/TIT.2022.3171173)  
+  - This paper explores gradient descent methods with differential quantization, emphasizing techniques like error compensation, sigma-delta modulation, 
+      and their applications in federated learning. The authors analyze convergence rates and propose methods achieving linear convergence with quantized communication.
+
 
 
 ### Federated Learning Flavours 
