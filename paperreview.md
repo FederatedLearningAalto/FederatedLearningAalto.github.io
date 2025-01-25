@@ -79,10 +79,6 @@ methods are used (e.g., gradient based methods)?
   - [DOI:10.1109/BigData62323.2024.10826034](https://doi.org/10.1109/BigData62323.2024.10826034)  
   - This paper integrates Kafka-ML with blockchain to enhance traceability and robustness in federated learning systems, particularly for real-time data streams. The approach leverages asynchronous FL to improve efficiency and scalability.
 
-
-
-
-
 ### Distributed Optimization for Federated Learning
 
 - Boyd, S., Parikh, N., & Chu, E. (2010). **"Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers."**
@@ -108,8 +104,6 @@ methods are used (e.g., gradient based methods)?
   - [IEEE Transactions on Information Theory, 68(9): 6078-6097](https://doi.org/10.1109/TIT.2022.3171173)  
   - This paper explores gradient descent methods with differential quantization, emphasizing techniques like error compensation, sigma-delta modulation, 
       and their applications in federated learning. The authors analyze convergence rates and propose methods achieving linear convergence with quantized communication.
-
-
 
 ### Federated Learning Flavours 
 
@@ -158,7 +152,7 @@ between estimating cluster identities and optimizing model parameters for user c
   - [IEEE Signal Processing Letters, 28, 106-110](https://doi.org/10.1109/LSP.2020.3045832)
   - Formulates local graph clustering as an instance of GTVMin. 
   
-### Robustness and Cyber-Security of Federated Learning
+### Robustness, Privacy and Cyber-Security of Federated Learning
 
 - Lugosi, G., & Mendelson, S. (2021). **"Robust Multivariate Mean Estimation: The Optimality of Trimmed Mean."**
   - [The Annals of Statistics, 49(1), pp. 393–410](https://doi.org/10.1214/20-AOS1961)
@@ -178,10 +172,6 @@ between estimating cluster identities and optimizing model parameters for user c
   - [Proceedings of the Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)](https://cdn.aaai.org/ojs/16940/16940-13-20434-1-2-20210518.pdf)
   - Explores robust gradient descent techniques designed to scale effectively in large-scale optimization problems, 
      with applications to adversarial and noisy environments.
-
-
-  
-### Privacy and Cyber-Security of Federated Learning
 
 - Geyer, R. et.al. (2017). **"Differentially Private Federated Learning: A Client Level Perspective."**
   - [arXiv:1712.07557](https://arxiv.org/abs/1712.07557)
@@ -217,6 +207,11 @@ between estimating cluster identities and optimizing model parameters for user c
   - [J. ACM, 61(6), Article 38](https://doi.org/10.1145/2666468) 
   - This paper explores methods for privacy-aware learning in the context of distributed data. 
       The authors propose frameworks that balance utility and privacy by leveraging formal privacy guarantees.
+
+- Guangfeng Yan, Tan Li, Kui Wu, Linqi Song, (2024). **"Killing two birds with one stone: Quantization achieves privacy in distributed learning."**
+  - [Digital Signal Processing, Vol 146](https://www.sciencedirect.com/science/article/pii/S1051200423004487)
+  -  This paper studies the new trade-offs between communication, privacy, and learning performance 
+     of stochastic gradient descent with noisy quantized gradients.
 
 ## Propose a Paper
 If you wish to review a paper not listed here, please email course instructor with the title, 
