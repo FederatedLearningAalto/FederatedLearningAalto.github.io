@@ -121,6 +121,14 @@ between estimating cluster identities and optimizing model parameters for user c
   - Introduces FedeRiCo, a decentralized framework that enables clients in federated learning to select 
       optimal collaborators based on local data distributions.
 
+- Anonymous authors. (2025). **"Clusters Agnostic Network Lasso Bandits."**  
+  - [OpenReview: KWUFlIMn8A](https://openreview.net/forum?id=KWUFlIMn8A)  
+  - Proposes a framework leveraging network lasso to address multi-task contextual bandits with piecewise constant task preferences. 
+      The model achieves sublinear regret by optimizing intra-cluster density and sparsity in inter-cluster connections. Theoretical guarantees include a novel oracle inequality and an upper bound on regret.
+
+  
+      
+
 ### Federated Learning Applications
 
 - Yang, Q., et al. (2019). **"Federated Machine Learning: Concept and Applications."**
