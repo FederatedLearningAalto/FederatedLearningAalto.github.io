@@ -42,7 +42,11 @@ methods are used (e.g., gradient based methods)?
 
 - McMahan, H. B., et al. (2017). **"Communication-Efficient Learning of Deep Networks from Decentralized Data."**
   - [DOI:10.48550/arXiv.1602.05629](https://arxiv.org/abs/1602.05629)
-  - A pioneering work that introduces the concept of federated learning.
+  - A pioneering work that introduces the concept of federated learning. Proposes the Federated Averaging (FedAvg) algorithm. 
+
+- Li, T., et al. (2020). **"Federated Optimization in Heterogeneous Networks."**
+  - [DOI:10.48550/arXiv.1812.06127](https://arxiv.org/abs/1812.06127)
+  - Proposed the FL algorithm FedProx. 
         
 - Smith, V., et al. (2017). **"Federated Multi-Task Learning."**
   - [DOI:10.48550/arXiv.1705.10467](https://arxiv.org/abs/1705.10467)
@@ -90,7 +94,7 @@ methods are used (e.g., gradient based methods)?
   - [Journal of Machine Learning Research, 20(159):1-31](https://jmlr.org/papers/v20/19-543.html)
   - This work provides a theoretical analysis of distributed optimization of convex functions using a network of 
   computing units (= a Federated Learning network). 
-  
+
 - Sarcheshmehpour, Y., et.al. (2021). **"Federated Learning from Big Data Over Networks."**
    - [ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing, pp. 3055-3059](https://doi.org/10.1109/ICASSP39728.2021.9414903)
    - Applies a generic primal-dual method from convex optimization to solve GTVMin. 
@@ -134,10 +138,6 @@ between estimating cluster identities and optimizing model parameters for user c
 - Yang, Q., et al. (2019). **"Federated Machine Learning: Concept and Applications."**
   - [DOI:10.1145/3298981](https://doi.org/10.1145/3298981)
   - Provides practical insights and applications of federated learning in real-world scenarios.
-
-- Li, T., et al. (2020). **"Federated Optimization in Heterogeneous Networks."**
-  - [DOI:10.48550/arXiv.1812.06127](https://arxiv.org/abs/1812.06127)
-  - Discusses optimization techniques for federated learning in settings with non-IID data.
   
 - Douillard, A., et.al. (2023). **"DiLoCo: Distributed Low-Communication Training of Language Models."**
   - [DOI:10.48550/arXiv.2311.08105](https://arxiv.org/abs/2311.08105)
