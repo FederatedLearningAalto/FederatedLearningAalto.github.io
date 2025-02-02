@@ -51,7 +51,7 @@ response = requests.get(camera_stations_url)
 
 if response.status_code == 200:
     data = response.json()
-
+    print(data)
     # Extract camera station information
     if data and "features" in data:
         camera_stations = data["features"]
@@ -62,7 +62,7 @@ if response.status_code == 200:
             properties = station.get("properties", {})
             cameras.append({
                 "Station ID": properties.get("id"),
-                "Name": properties.get("names", {}).get("en", None),
+                "Name": properties.get("name", {}),
                 "Latitude": station.get("geometry", {}).get("coordinates", [None, None])[1],
                 "Longitude": station.get("geometry", {}).get("coordinates", [None, None])[0],
                 "Road Number": properties.get("roadNumber"),
@@ -158,12 +158,16 @@ for _, row in df_nearest_cameras.iterrows():
                     image_response.raise_for_status()
                     image = Image.open(BytesIO(image_response.content))
 # Resize the image
-                    img = OffsetImage(image, zoom=0.1)  # Shrink image size for scatterplot
+                    img = OffsetImage(image, zoom=0.05)  # Shrink image size for scatterplot
                     ab = AnnotationBbox(img, (longitude, latitude), frameon=False)
                     ax.add_artist(ab)
 
                             # Add a scatter point for the location
-                    ax.scatter(longitude, latitude, color="red", s=10, label=row["Weather Station"])
+               #     ax.scatter(longitude, latitude, color="red", s=10, label=row["Name"])
+                    # Add the station name below the snapshot
+                    ax.text(longitude, latitude - 0.5, row["Name"], color="blue", 
+                       fontsize=12, ha="center", va="top")  # Adjust the offset for positioning
+
                       
                 else:
                     print(f"No image URL available for station {station_id}.")
@@ -178,7 +182,7 @@ ax.set_xlabel("Longitude")
 ax.set_ylabel("Latitude")
 ax.set_title("Weather Camera Snapshots")
 ax.grid(True)
-plt.legend(loc='upper left', bbox_to_anchor=(1, 1), title="Weather Stations")
+#plt.legend(loc='upper left', bbox_to_anchor=(1, 1), title="Weather Stations")
 plt.plot(lons, lats, marker='o', linestyle='-', markersize=5, label='Polygon Border')
 plt.tight_layout()
 plt.show()
