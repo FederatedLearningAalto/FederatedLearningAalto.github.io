@@ -52,7 +52,7 @@ def connect_nearest_neighbors(graph, min_neighbors=4):
                 graph.add_edge(node_a, node_b, weight=dist)
 
 
-def plotFMI(G,lons,lats,title="test"): 
+def plotFMI(G,lons,lats,fname="test",title=""): 
     """Generates a scatter plot of FMI stations using latitude and longitude as coordinates.
 
     Parameters
@@ -88,10 +88,10 @@ def plotFMI(G,lons,lats,title="test"):
     # Set labels and title
     ax.set_xlabel('longitude')
     ax.set_ylabel('latitude')
-    #ax.set_title('FMI stations')
+    ax.set_title(title)
 
     # Save the figure as a PNG file
-    plt.savefig(title+".png", dpi=100, bbox_inches='tight')
+    plt.savefig(fname+".png", dpi=100, bbox_inches='tight')
 
     # Show the plot (optional)
     plt.show()
@@ -321,7 +321,7 @@ for node in G.nodes:
 
 connect_nearest_neighbors(G, 3)
 
-plotFMI(G, lons, lats,"coords")
+plotFMI(G, lons, lats,"coords","use latitude and longitude for placing edges")
 
 # Compute the average of the "y" attribute for each node and store it in "z"
 for node in G.nodes:
@@ -331,7 +331,7 @@ for node in G.nodes:
     
 connect_nearest_neighbors(G, 3)
 
-plotFMI(G, lons, lats,"avgtemp")
+plotFMI(G, lons, lats,"avgtemp","use avg temperature for placing edges")
     
     
     
