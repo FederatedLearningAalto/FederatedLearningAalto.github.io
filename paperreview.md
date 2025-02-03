@@ -109,6 +109,20 @@ methods are used (e.g., gradient based methods)?
   - This paper explores gradient descent methods with differential quantization, emphasizing techniques like error compensation, sigma-delta modulation, 
       and their applications in federated learning. The authors analyze convergence rates and propose methods achieving linear convergence with quantized communication.
 
+- Liu, B., et al. (2024). **"Asynchronous Local-SGD Training for Language Modeling."**  
+  - [arXiv:2401.09135](https://arxiv.org/abs/2401.09135)  
+  - Investigates asynchronous Local-SGD for training language models, analyzing the impact of hardware heterogeneity, model size, 
+     and optimization methods. Proposes a novel delayed Nesterov momentum update and adaptive local training steps to mitigate 
+     convergence issues, achieving performance comparable to synchronous Local-SGD with improved wall-clock efficiency.
+
+- Le Bars, J., et al. (2023). **"Refined Convergence and Topology Learning for Decentralized SGD with Data Heterogeneity."**  
+  - [Proceedings of Machine Learning Research (PMLR)](https://proceedings.mlr.press/v206/le-bars23a/le-bars23a.pdf)  
+  - Analyzes the convergence of D-SGD under data heterogeneity, introducing the concept of neighborhood heterogeneity, which 
+     couples communication topology with data distribution differences. Proposes learning data-dependent topologies to mitigate 
+     the adverse effects of data heterogeneity, enhancing convergence rates.
+
+
+
 ### Federated Learning Flavours 
 
 - Sattler, F., et al. (2019). **"Clustered Federated Learning: Model-Agnostic Distributed Multi-Task Optimization under Privacy Constraints."**
@@ -155,6 +169,11 @@ between estimating cluster identities and optimizing model parameters for user c
 - Doriguzzi-Corin, R., et.al. (2023). **"FLAD: Adaptive Federated Learning for DDoS Attack Detection."**
   - [DOI:10.1016/j.cose.2023.103597](https://doi.org/10.1016/j.cose.2023.103597)
   - Introduces FLAD, an adaptive federated learning approach designed to enhance DDoS attack detection. 
+  
+- Rui Ye et.al. (2024). **"OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning."**
+  - https://arxiv.org/abs/2402.06954
+  - Studies ollaborative and privacy-preserving LLM training on the underutilized distributed private data via federated learning (FL), where multiple data 
+    owners collaboratively train a shared model without transmitting raw data.
 
 - Jung, A., et.al. (2021). **"Local Graph Clustering With Network Lasso."**
   - [IEEE Signal Processing Letters, 28, 106-110](https://doi.org/10.1109/LSP.2020.3045832)
