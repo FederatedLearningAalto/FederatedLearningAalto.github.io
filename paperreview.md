@@ -120,6 +120,13 @@ methods are used (e.g., gradient based methods)?
   - Analyzes the convergence of D-SGD under data heterogeneity, introducing the concept of neighborhood heterogeneity, which 
      couples communication topology with data distribution differences. Proposes learning data-dependent topologies to mitigate 
      the adverse effects of data heterogeneity, enhancing convergence rates.
+     
+- Zhou, Y., et al. (2022). **"Sharper Convergence Guarantees for Asynchronous SGD."**  
+  - [Proceedings of Machine Learning Research (PMLR)](https://proceedings.mlr.press) *(Link to paper needed)*  
+  - Provides an improved theoretical analysis of asynchronous SGD's convergence, particularly in non-convex 
+    optimization scenarios. Offers convergence rates that depend on average gradient delays rather than maximum 
+    delays, presenting a more realistic assessment of asynchronous SGD's performance in practical settings.
+
 
 
 
