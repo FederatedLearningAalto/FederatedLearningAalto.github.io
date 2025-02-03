@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CS-E4740 Federated Learning - At a Glance"
+title: ""
 lastmod: 2025-01-22
 changefreq: daily
 priority: 1.0
