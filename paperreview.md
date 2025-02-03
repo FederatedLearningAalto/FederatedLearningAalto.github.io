@@ -122,7 +122,7 @@ methods are used (e.g., gradient based methods)?
      the adverse effects of data heterogeneity, enhancing convergence rates.
      
 - Zhou, Y., et al. (2022). **"Sharper Convergence Guarantees for Asynchronous SGD."**  
-  - [Proceedings of Machine Learning Research (PMLR)](https://proceedings.mlr.press) *(Link to paper needed)*  
+  - [Proceedings of Machine Learning Research (PMLR)](https://proceedings.mlr.press)(https://papers.neurips.cc/paper_files/paper/2022/file/6db3ea527f53682657b3d6b02a841340-Paper-Conference.pdf)
   - Provides an improved theoretical analysis of asynchronous SGD's convergence, particularly in non-convex 
     optimization scenarios. Offers convergence rates that depend on average gradient delays rather than maximum 
     delays, presenting a more realistic assessment of asynchronous SGD's performance in practical settings.
