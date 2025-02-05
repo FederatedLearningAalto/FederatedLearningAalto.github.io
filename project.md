@@ -8,8 +8,8 @@ The 2025 edition of the course **CS-E4740 - Federated Learning** includes a stud
 of **federated learning (FL)**. The goal is to **formulate the application as an instance of generalized total variation (GTV) minimization 
 over an FL network**.
 
-FL networks and GTV minimization will be introduced as core mathematical structures for studying FL during the course  
-[lectures]({{ site.baseurl }}/) and in the [course book](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf).
+FL networks and GTV minimization will be introduced as core mathematical structures for studying FL during the course [lectures]({{ site.baseurl }}/) 
+and in the [course book](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf).
 
 
 ## Project Requirements
@@ -72,11 +72,11 @@ Federated Learning can improve **fraud detection** and **credit risk assessment*
 
 ### FL at the Finnish Meteorological Institute (FMI)
 - FL models can be trained **individually for each FMI weather station** to make local predictions.
-- **Python script:** ![QR Code](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/slides/Lec_FLNetworksUtils.py)
+- **Python script for retrieving FMI data:** ![click me](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/slides/Lec_FLNetworksUtils.py)
 
 ### FL for Finnish Road Safety
 - Train **local models for traffic cameras** to predict congestion and accidents.
-- **Python script:** ![QR Code](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/slides/GetDataFinTraffic.py)
+- **Python script for retrieving camera snapshots:** ![click me](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/slides/GetDataFinTraffic.py)
 
 ---
 
