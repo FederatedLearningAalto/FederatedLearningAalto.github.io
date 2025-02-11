@@ -151,8 +151,10 @@ between estimating cluster identities and optimizing model parameters for user c
   - Proposes a framework leveraging network lasso to address multi-task contextual bandits with piecewise constant task preferences. 
       The model achieves sublinear regret by optimizing intra-cluster density and sparsity in inter-cluster connections. Theoretical guarantees include a novel oracle inequality and an upper bound on regret.
 
-  
-      
+- Yae Jee Cho, Jianyu Wang, Tarun Chiruvolu, Gauri Joshi, (2021). **"Personalized Federated Learning for Heterogeneous Clients with Clustered Knowledge Transfer."**  
+  - [CoRR, arXiv:2109.08119](https://arxiv.org/abs/2109.08119)  
+  - This paper introduces PerFed-CKT, a framework that enables clients with varying model architectures to collaboratively learn 
+    personalized models through clustered co-distillation, enhancing performance while significantly reducing communication costs.      
 
 ### Federated Learning Applications
 
@@ -186,7 +188,7 @@ between estimating cluster identities and optimizing model parameters for user c
   - [IEEE Signal Processing Letters, 28, 106-110](https://doi.org/10.1109/LSP.2020.3045832)
   - Formulates local graph clustering as an instance of GTVMin. 
   
-### Robustness, Privacy and Cyber-Security of Federated Learning
+### Robustness, Privacy, Fairness and Cyber-Security of Federated Learning
 
 - Lugosi, G., & Mendelson, S. (2021). **"Robust Multivariate Mean Estimation: The Optimality of Trimmed Mean."**
   - [The Annals of Statistics, 49(1), pp. 393–410](https://doi.org/10.1214/20-AOS1961)
@@ -246,6 +248,12 @@ between estimating cluster identities and optimizing model parameters for user c
   - [Digital Signal Processing, Vol 146](https://www.sciencedirect.com/science/article/pii/S1051200423004487)
   -  This paper studies the new trade-offs between communication, privacy, and learning performance 
      of stochastic gradient descent with noisy quantized gradients.
+
+- Tian Li, Shengyuan Hu, Ahmad Beirami, Virginia Smith, (2021). **"Fair and Robust Federated Learning Through Personalization."**  
+  - [Proceedings of the 38th International Conference on Machine Learning (ICML), Vol 139](https://proceedings.mlr.press/v139/li21b.html)  
+  - This paper investigates how personalization in federated learning can improve both fairness and robustness, addressing challenges posed by heterogeneous client data distributions.
+  
+     
 
 ## Propose a Paper
 If you wish to review a paper not listed here, please email course instructor with the title, 
