@@ -21,7 +21,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <th>Lec.</th>
       <th>Exerc.</th>
       <th>Slides</th>
-      <th>YouTube</th>
+      <th>Notebook</th>
       <th>FLBook</th>
       <th>DL</th>
     </tr>
@@ -50,7 +50,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td>10-Mar</td>
       <td>12-Mar</td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
-      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="{{ site.baseurl }}/assignment">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 4</a></td>
       <td><a href="">31-Mar</a></td>
     </tr>
@@ -59,7 +59,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td>17-Mar</td>
       <td>19-Mar</td>
       <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
-      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="{{ site.baseurl }}/assignment">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 5</a></td>
       <td><a href="">31-Mar</a></td>
     </tr>
@@ -68,7 +68,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
        <td>24-Mar</td>
         <td>26-Mar</td>
 	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
-      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="{{ site.baseurl }}/assignment">TBA</a></td>
          <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 6</a></td>
       <td><a href="">14-Apr</a></td>
     </tr>
@@ -77,7 +77,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td>31-Mar</td>
       <td>02-Apr</td>
 	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
-      <td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+      <td><a href="{{ site.baseurl }}/assignment">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 8,9,10</a></td>
       <td><a href="">14-Apr</a></td>
     </tr>
@@ -86,4 +86,6 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
 
 ## Acknowledgment
 
-This course is supported by Research Council of Finland (under grants 363624, 349966), by the Jane and Aatos Erkko Foundation (under grant A835), and by Business Finland within the co-research project FORWARD-LOOKING AI GOVERNANCEIN BANKING and INSURANCE (FLAIG) . We acknowledge their support in making this course possible.
+This course is supported by Research Council of Finland (under grants 363624, 349966), by the Jane and 
+Aatos Erkko Foundation (under grant A835), and by Business Finland within the co-research project FORWARD-LOOKING AI GOVERNANCE
+IN BANKING and INSURANCE (FLAIG) . We acknowledge their support in making this course possible.
