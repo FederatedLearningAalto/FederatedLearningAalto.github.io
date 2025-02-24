@@ -9,7 +9,7 @@ priority: 1.0
 This course is structured into six modules (M1 through M6). Each module comprises:
 
 - **Lecture**: Delivered on **Mondays from 16:15 to 18:00**.
-- **Assignment**: Require to implement concepts in Python. 
+- **Assignment**: Require to implement concepts in programming language Python via <a href="https://jupyter.org/"> Jupyter notebooks. </a> 
 - **Exercise**: Held on **Wednesdays from 16:15 to 18:00** introduce assignment.
 
 Below are the specific dates for lectures, exercise sessions, and assignment submission deadlines (DL).
