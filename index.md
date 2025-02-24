@@ -29,10 +29,10 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
   <tbody>
     <tr>
       <td>Intro/ML Basics</td>
-      <td>24-Feb</td>
+      <td><a href="https://youtu.be/s6f1rjn5nnU?si=xajIHt-ws5ak8Rgu"> Recording </a></td>
       <td>26-Feb</td>
       <td><a href="{{ site.baseurl }}/slides/Lec_Introduction.pdf">slides</a></td>
-     <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
+     <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">MLBasics</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
       <td><a href="">17-Mar</a></td>
     </tr>
