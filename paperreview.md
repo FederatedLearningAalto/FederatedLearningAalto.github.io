@@ -252,8 +252,10 @@ between estimating cluster identities and optimizing model parameters for user c
 - Tian Li, Shengyuan Hu, Ahmad Beirami, Virginia Smith, (2021). **"Fair and Robust Federated Learning Through Personalization."**  
   - [Proceedings of the 38th International Conference on Machine Learning (ICML), Vol 139](https://proceedings.mlr.press/v139/li21b.html)  
   - This paper investigates how personalization in federated learning can improve both fairness and robustness, addressing challenges posed by heterogeneous client data distributions.
-  
-     
+
+- Banghua Zhu, Lun Wang, Qi Pang, Shuai Wang, Jiantao Jiao, Dawn Song, Michael I. Jordan, (2023). **"Byzantine-Robust Federated Learning with Optimal Statistical Rates."**  
+  - [Proceedings of The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), PMLR 206:3151-3178](https://proceedings.mlr.press/v206/zhu23b.html)  
+  - This paper establishes fundamental limits for Byzantine-robust federated learning and proposes nearly optimal statistical rate algorithms based on robust high-dimensional statistics, achieving improved resilience against adversarial clients.
 
 ## Propose a Paper
 If you wish to review a paper not listed here, please email course instructor with the title, 
