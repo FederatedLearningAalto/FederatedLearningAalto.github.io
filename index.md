@@ -40,7 +40,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td>FL Networks</td>
       <td>03-Mar</td>
       <td>05-Mar</td>
-      <td><a href="">TBA</a></td>
+      <td><a href="{{ site.baseurl }}/slides/Lec_FLNetworks.pdf">slides</a></td>
       <td><a href="hhttps://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 3,7</a></td>
       <td><a href="">17-Mar</a></td>
