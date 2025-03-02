@@ -16,9 +16,9 @@ and in the [course book](https://github.com/alexjungaalto/FederatedLearning/blob
 
 - **Choose an FL application** relevant to your interests.
 - **Design and analyze FL algorithms** from the course to address your chosen application.
-- **Write a project report** using the provided [TBA]() ([PDF version]()).
+- **Write a project report** using the provided template [tex]() ([pdf](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReportTemplate_25_DRAFT.pdf)).
 - **Submit your report by April 30, 2025**.
-- **Peer-review other students' reports until May 15, 2025**.
+- **Peer-review other students' reports until May 15, 2025**. Current draft for review sheet [pdf](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReviewSheet_DRAFT.pdf)
 - **Submit a revised report and response letter by May 31, 2025**.
 
 ---
