@@ -30,7 +30,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     <tr>
       <td>Intro/ML Basics</td>
       <td><a href="https://youtu.be/s6f1rjn5nnU?si=xajIHt-ws5ak8Rgu"> Recording </a></td>
-      <td>26-Feb</td>
+      <td><a href="https://www.youtube.com/watch?v=25t_lKbVsAc"> Recording </a></td>
       <td><a href="{{ site.baseurl }}/slides/Lec_Introduction.pdf">slides</a></td>
      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">MLBasics</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
@@ -38,7 +38,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     </tr>
     <tr>
       <td>FL Networks</td>
-      <td>03-Mar</td>
+      <td><a href="https://youtu.be/oK1--YXu_aA?si=VL-YDCpZxNBv7zXu"> Recording </a></td>
       <td>05-Mar</td>
       <td><a href="{{ site.baseurl }}/slides/Lec_FLNetworks.pdf">slides</a></td>
       <td><a href="hhttps://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
