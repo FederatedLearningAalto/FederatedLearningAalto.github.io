@@ -86,6 +86,6 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
 
 ## Acknowledgment
 
-This course is supported by Research Council of Finland (under grants 363624, 349966), by the Jane and 
+This course is supported by Research Council of Finland (under grants 331197, 363624, 349966), by the Jane and 
 Aatos Erkko Foundation (under grant A835), and by Business Finland within the co-research project FORWARD-LOOKING AI GOVERNANCE
 IN BANKING and INSURANCE (FLAIG) . We acknowledge their support in making this course possible.
