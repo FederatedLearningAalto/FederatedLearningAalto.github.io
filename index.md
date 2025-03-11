@@ -47,7 +47,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     </tr>
     <tr>
       <td>FL Design Principle</td>
-      <td>10-Mar</td>
+      <td><a href="https://youtu.be/LyZ_jIWlj2g"> Recording </a></td>
       <td>12-Mar</td>
       <td><a href="{{ site.baseurl }}/slides/Lec_FLDesignPrinciple.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
