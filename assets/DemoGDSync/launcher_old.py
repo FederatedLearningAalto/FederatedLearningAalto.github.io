@@ -7,7 +7,7 @@ synchronous gradient descent updates.
 ### **Workflow**
 1. **Generate a worker topology**: Workers are connected in a network structure.
 2. **Visualize the topology**: The network graph is displayed for better understanding.
-3. **Start the server**: The central server listens for updates from clients and distributes only neighbor updates.
+3. **Start the server**: The central server listens for updates from clients.
 4. **Launch worker processes**: Each worker trains locally and communicates with the server.
 5. **Shutdown handling**: Ensures all processes are terminated gracefully upon exit.
 
@@ -24,6 +24,7 @@ Date: 2025-03-15
 
 import subprocess
 import time
+import random
 import networkx as nx
 import matplotlib.pyplot as plt
 import signal
@@ -69,19 +70,18 @@ def visualize_topology(G, topology):
     plt.title("Worker Network Topology")
     plt.show()
 
-def start_server(worker_ids, topology):
+def start_server(worker_ids):
     """
-    Start the SGD synchronization server on port 5000, passing the worker topology.
+    Start the SGD synchronization server on port 5000.
     
     Args:
         worker_ids (list): List of worker IDs to be managed by the server.
-        topology (dict): Dictionary containing worker connectivity.
     """
     global server_process
-    topology_args = [f"{worker}:{','.join(map(str, neighbors))}" for worker, neighbors in topology.items()]
     server_process = subprocess.Popen(
-        ["python", "server.py"] + list(map(str, worker_ids)) + ["--topology"] + topology_args)
+        ["python", "server.py"] + list(map(str, worker_ids)))
     time.sleep(5)  # Ensure the server is fully started before workers are launched
+
 
 def start_workers(topology, learning_rate=0.1, alpha=0.5, speed=2):
     """
@@ -100,7 +100,7 @@ def start_workers(topology, learning_rate=0.1, alpha=0.5, speed=2):
             str(worker_id), str(worker_id),  # Local a_i is set as worker_id
             str(learning_rate), str(alpha), str(speed)
         ] + list(map(str, neighbors))
-        
+
         proc = subprocess.Popen(cmd)
         worker_processes.append(proc)
 
@@ -133,7 +133,7 @@ if __name__ == "__main__":
     visualize_topology(G, topology)
 
     print("\nStarting server on port 5000...")
-    start_server(list(topology.keys()), topology)
+    start_server(list(topology.keys()))
 
     print("\nStarting workers on ports 5001, 5002, ...")
     start_workers(topology)
