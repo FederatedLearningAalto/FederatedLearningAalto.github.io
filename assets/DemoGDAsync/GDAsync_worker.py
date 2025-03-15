@@ -8,6 +8,17 @@ import sys
 
 class Worker:
     def __init__(self, worker_id, local_a, neighbors, lr, alpha, speed):
+        """
+        Initialize a worker node.
+
+        Parameters:
+        - worker_id (int): Unique ID of the worker.
+        - local_a (float): Worker-specific parameter.
+        - neighbors (list of int): IDs of neighboring workers.
+        - lr (float): Learning rate for gradient updates.
+        - alpha (float): Regularization parameter for TV term.
+        - speed (float): Controls update frequency.
+        """
         self.worker_id = worker_id
         self.local_a = local_a
         self.neighbors = set(neighbors)  # Ensure unique neighbors
@@ -38,7 +49,9 @@ class Worker:
                 time.sleep(0.5)
 
     def listen_for_updates(self):
-        """Listen for updates and verify sender identity."""
+        """
+        Continuously listen for incoming updates from neighbors.
+        """
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
             s.bind(("127.0.0.1", self.listen_port))
@@ -62,18 +75,23 @@ class Worker:
                             print(f"Worker {self.worker_id}: Failed to decode message - {e}")
 
     def run(self):
-        """Main loop: listen, compute updates, and send updates."""
-        # Start listening thread
+        """
+        Main execution loop of the worker:
+            - Starts listening for incoming updates.
+            - Performs local parameter updates
+            - Sends updates to neighbors.
+        """
+        # Start a separate thread to listen for updates
         threading.Thread(target=self.listen_for_updates, daemon=True).start()
 
-        # Introduce slight startup delay to allow neighbors to initialize
+        # Introduce a random startup delay to prevent simultaneous execution
         time.sleep(random.uniform(1, 3))
 
         while True:
-            # Compute local gradient
+            # Compute local gradient (derivative of (w - a)^2)
             gradient = 2 * (self.w - self.local_a)
 
-            # Compute TV gradient: (w - w_avg) term
+            # Compute TV regularization gradient term
             with self.lock:
                 current_neighbor_values = self.neighbor_values.copy()  # Copy values for consistent logging
                 if current_neighbor_values:
@@ -100,15 +118,20 @@ class Worker:
 
 
 if __name__ == "__main__":
+    """
+    Script entry point: Parse command-line arguments and start the worker.
+    """
     print(sys.argv)
     worker_id = int(sys.argv[1])  # Unique ID
-    local_a = float(sys.argv[2])  # Local offset a_i
+    local_a = float(sys.argv[2])  # Worker-specific parameter a_i
     lr = float(sys.argv[3])  # Learning rate
-    alpha = float(sys.argv[4])  # TV regularization weight (same for all)
+    alpha = float(sys.argv[4])  # Regularization weight (same for all workers)
     speed = float(sys.argv[5])  # Speed of worker updates
     neighbors = list(map(int, sys.argv[6:]))  # Neighboring worker IDs
 
     print(f"Worker {worker_id} with neighbors: {neighbors}")
+
+    # Create worker instance and start execution
 
     worker_instance = Worker(worker_id, local_a, neighbors, lr, alpha, speed)
     worker_instance.run()

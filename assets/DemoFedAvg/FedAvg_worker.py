@@ -93,10 +93,7 @@ class Worker:
                     if data:
                         updated_values = pickle.loads(data)
                         print(f"Worker {self.worker_id}: Received updated values from server: {updated_values}")
-                        
-                        # Store updated neighbor values
-                        with self.lock:
-                            self.recv_w = updated_values
+                        self.recv_w = updated_values
         except Exception as e:
             print(f"Worker {self.worker_id}: Error receiving updates from server - {e}")
         finally:

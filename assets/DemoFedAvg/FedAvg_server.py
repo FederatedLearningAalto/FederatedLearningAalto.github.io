@@ -57,6 +57,7 @@ class SGDServer:
                     # Wait for all workers before sending updates
                     if len(self.worker_updates) == len(self.worker_ids):
                         self.round += 1
+                        self.w = sum(self.worker_updates.values()) / len(self.worker_updates)
                         print(f"\n--- Server: Synchronization Round {self.round} ---")
                         print("Server: All workers sent their updates, broadcasting to neighbors...\n")
 
@@ -84,8 +85,8 @@ class SGDServer:
             try:
                 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                     s.connect(("127.0.0.1", worker_port))
-                    s.sendall(pickle.dumps(updates))  # Send only neighbors' updated values
-                print(f"Server: Sent neighbor updates to Worker {worker_id} on port {worker_port}")
+                    s.sendall(pickle.dumps(updates)) 
+                print(f"Server: Sent update {updates} to Worker {worker_id} on port {worker_port}")
                 return  # Success, exit function
             except Exception as e:
                 print(f"Server: Failed to send updates to Worker {worker_id} on port {worker_port}, Retrying ({attempt+1}/{max_retries})...")

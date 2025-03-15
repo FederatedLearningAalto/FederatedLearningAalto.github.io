@@ -1,106 +1,86 @@
-# Synchronous Gradient Descent (SGD) Demo
+# Introduction to the Federated Averaging (FedAvg) Demo
 
 ## Overview
-This demo implements **Synchronous Gradient Descent (SGD)** in a federated learning setup, where 
-multiple workers (clients) collaborate with a central server to train a model. The server synchronizes 
-the updates across workers and ensures that each worker only receives updates from its **designated neighbors** 
-based on a predefined network topology.
+This demo illustrates the **Federated Averaging (FedAvg) algorithm**, a key technique in **federated learning**. 
+In this setup, multiple clients (workers) train local models on their own data and periodically send updates to 
+a central server, which aggregates them to improve a global model.
 
-For a theoretical background on **Synchronous Gradient Descent in Federated Learning**, refer to 
-**Chapter 5** of [this book](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf).
+For a theoretical background on **FedAvg**, refer to **Chapter 5** of the book [Federated Learning](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf).
 
-## Key Features
-- **Federated Learning Setup**: Each worker trains locally and sends updates to the server.
-- **Synchronous Gradient Descent**: The server waits for all worker updates before proceeding to the next iteration.
-- **Neighbor-Based Communication**: Workers receive updated parameters only from their connected neighbors.
-- **Multi-threaded Server**: Handles multiple clients simultaneously for efficient processing.
-- **Graph-Based Topology**: Workers are structured in a connected network for distributed updates.
+## Components
+This demo consists of three key components:
 
-## Files Included
-- `launcher.py`:
-  - Initializes the system.
-  - Generates a random **worker topology** using NetworkX.
-  - Starts the **server** and **worker clients**.
-  - Handles graceful termination of all processes.
-- `server.py`:
-  - Listens for worker updates.
-  - Aggregates updates and synchronizes training rounds.
-  - Sends **only neighbor-specific updates** back to each worker.
-- `worker.py`:
-  - Trains a local model using gradient descent.
-  - Communicates with the **server** to send updates and receive neighbor updates.
-  - Incorporates neighbor information in its gradient descent step.
+### 1. **Launcher Script [`FedAvg_launch.py`](./FedAvg_launch.py)**
+- Initializes and starts the server process.
+- Launches multiple worker processes for local training.
+- Handles process termination gracefully.
 
-## How It Works
-1. **Topology Generation**
-   - `launcher.py` generates a **random connected graph** where workers are linked to a few neighbors.
-   - The topology is displayed using NetworkX visualization.
-2. **Server and Workers Start**
-   - The **server** starts first, listening for incoming worker connections.
-   - Each **worker** initializes with:
-     - A local model parameter `w`.
-     - Learning rate (`lr`), regularization (`alpha`), and computation speed (`speed`).
-     - Neighbor information to incorporate in training.
-3. **Training & Synchronization**
-   - Each worker trains **locally** and sends `w` to the server.
-   - The **server waits** until all workers have submitted updates.
-   - Once all updates are collected, the server distributes **only neighbor-specific updates** back to each worker.
-   - Workers update their `w` using their own gradient **and their neighbors' information**.
-4. **Iteration Continues**
-   - The process repeats for multiple rounds until stopped manually.
+### 2. **Server Script [`FedAvg_server.py`](./FedAvg_server.py)**
+- Manages global model updates.
+- Listens for updates from clients and aggregates them.
+- Sends updated models back to clients.
+
+### 3. **Worker Script [`FedAvg_worker.py`](./FedAvg_worker.py)**
+- Trains a local model using its own data.
+- Communicates with the server to exchange model updates.
+
+## Workflow
+1. **Start the server**: The server waits for client updates and aggregates their contributions.
+2. **Launch worker processes**: Each worker trains locally and periodically sends updates to the server.
+3. **Server updates the global model**: The received model updates from workers are averaged and distributed.
+4. **Workers continue local training**: The process repeats over multiple rounds to refine the model.
+5. **Shutdown handling**: Ensures all processes terminate properly when stopping the demo.
 
 ## Running the Demo
-### Prerequisites
-Ensure you have **Python 3** installed and required dependencies:
+### Step 1: Start the Server
+Run the server script first:
 ```bash
-pip install networkx matplotlib
+python ./FedAvg_server.py
+```
+This will start the central server and prepare it to receive updates from workers.
+
+### Step 2: Launch Workers
+Run the launcher script to start multiple clients (workers):
+```bash
+python ./FedAvg_launch.py
+```
+Each worker trains its local model and periodically sends updates to the server.
+
+### Step 3: Observe Output
+The logs will display:
+- Local training progress on each worker.
+- Communication between workers and the server.
+- Aggregation process at the server.
+- Global model updates over multiple rounds.
+
+### Step 4: Adjust Configuration
+Modify [`FedAvg_launch.py`](./FedAvg_launch.py) to adjust parameters such as:
+- Number of workers.
+- Learning rate (`lr`).
+- Aggregation factor (`alpha`).
+- Worker speed (simulating computational power).
+
+## Folder Structure
+The expected folder structure is as follows:
+```
+/DemoFedAvg/
+├── FedAvg_launch.py  # Script to launch workers and server
+├── FedAvg_server.py  # Script managing global model updates
+├── FedAvg_worker.py  # Script handling local training and updates
 ```
 
-### Running the Simulation
-To start the demo with **5 workers** and **connectivity of 2**:
-```bash
-python launcher.py 5 2
-```
-- The number `5` represents the **total number of workers**.
-- The number `2` sets the **number of neighbors per worker** in the topology.
+## Applications
+- **Federated Learning**: Demonstrates a decentralized training approach without sharing raw data.
+- **Privacy-Preserving Training**: Workers perform local computations while only sending model updates.
+- **Scalable Optimization**: Can be extended to large-scale machine learning tasks.
 
-Press **Ctrl+C** to stop the execution and shut down all processes.
+## Future Extensions
+- Implement differential privacy for improved security.
+- Add support for heterogeneous data across workers.
+- Introduce more advanced aggregation strategies beyond simple averaging.
 
-## Expected Output
-- **Topology Visualization**: Displays how workers are connected.
-- **Server Logs**:
-  - Logs received updates from workers.
-  - Sends only relevant updates to each worker.
-- **Worker Logs**:
-  - Sends updates to the server.
-  - Receives updated neighbor parameters.
-  - Applies gradient descent updates based on local and neighbor information.
-
-## Example Log Output
-```bash
-Server: Listening on port 5000... (Press Ctrl+C to stop)
-Server: Received w=0.4321 from Worker 1
-Server: Received w=0.3210 from Worker 2
-Server: Received w=0.6789 from Worker 3
-...
-Server: Sent neighbor updates to Worker 1 on port 5001
-Server: Sent neighbor updates to Worker 2 on port 5002
-...
-Worker 1: Received neighbor updates: {2: 0.3210, 3: 0.6789}
-Worker 2: Updated w = 0.4567
-...
-```
-
-## Customization
-- Modify `launcher.py` to change the **number of workers** and **network topology**.
-- Adjust **learning rate** (`lr`) and **regularization** (`alpha`) in `worker.py`.
-- Improve **server-client communication** with different aggregation strategies in `server.py`.
-
-## Next Steps
-- Implement **asynchronous gradient descent** where workers do not have to wait for all others.
-- Experiment with **different topologies** to see how network structure affects convergence.
-- Extend the system to use **real datasets and models** instead of toy parameters.
-
-## Author
-Alexander Jung, 2025-03-15
+## Conclusion
+This demo provides an implementation of **FedAvg**, highlighting the key aspects of federated learning. By modifying 
+parameters and extending the scripts, users can experiment with different training strategies in a decentralized 
+learning environment. For further insights, refer to **Chapter 5** of the book [Federated Learning](https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf).
 

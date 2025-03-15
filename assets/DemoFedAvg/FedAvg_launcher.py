@@ -62,10 +62,10 @@ def start_workers(num_clients,learning_rate=0.1, alpha=0.5, speed=2):
     for worker_id in range(1,num_clients+1):
         cmd = [
             "python", "FedAvg_worker.py",
-            str(worker_id), str(worker_id),  # Local a_i is set as worker_id
+            str(worker_id), str(0.5*worker_id),  # Local a_i is set as worker_id
             str(learning_rate), str(alpha), str(speed)
         ] 
-        
+        print(cmd)
         proc = subprocess.Popen(cmd)
         worker_processes.append(proc)
 
