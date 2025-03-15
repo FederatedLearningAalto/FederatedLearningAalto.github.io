@@ -1,0 +1,99 @@
+% !TeX spellcheck = en_GB
+% Template for Federated Learning Course Project Report
+
+\documentclass[9pt]{article}
+\usepackage{spconf,amsmath,bm,graphicx}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref, cleveref, tcolorbox}
+\usepackage{algorithm, algorithmic}
+\usepackage{amsfonts,amssymb,amsbsy}
+\usepackage{subcaption, adjustbox}
+
+% Declare Math Operators
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+% Title
+\title{Federated Learning Project Report Template}
+\name{First Last, \texttt{email@address.com}}
+\address{}
+
+\begin{document}
+	\maketitle
+	
+	\begin{abstract}
+		This abstract provides a concise summary of the project, including the FL application, empirical graph modeling, variation minimization approach, and the FL algorithms used.
+	\end{abstract}
+	
+	\textbf{Keywords:} Federated Learning, Networks, Personalized ML, Trustworthy AI
+	
+	\section{Introduction}
+	\label{sec:intro}
+	\begin{tcolorbox}[colback=gray!10, colframe=black!50, title=Instructions (Remove before submission)]
+		Introduce the background and motivation for your FL project:
+		\begin{itemize}
+			\item A real-life scenario motivating your FL application.
+			\item Summary of state-of-the-art methods relevant to your project.
+			\item Brief outline of the structure of your report.
+		\end{itemize}
+	\end{tcolorbox}
+	
+	\section{Problem Formulation}
+	\label{sec:pf}
+	\begin{tcolorbox}[colback=gray!10, colframe=black!50, title=Instructions (Remove before submission)]
+		Model your FL application as a FL network (see \cite[Ch.~3]{Jung2025}). 
+		In particular, clearly define and explain:
+		\begin{itemize}
+			\item Nodes: What real-world devices do they represent?
+			\item Local Models: Describe the models used at each node.
+			\item Loss Functions: Specify local loss functions for training.
+			\item Edges: How are edges and their weights chosen?
+		\end{itemize}
+	\end{tcolorbox}
+	
+	\section{Methods}
+	\label{sec:methods}
+	\begin{tcolorbox}[colback=gray!10, colframe=black!50, title=Instructions (Remove before submission)]
+	The project requires you to apply GTVMin-based methods to 
+	the FL application modelled in Section \ref{sec:pf}. In this section 
+	you need to clearly state and explain:
+		\begin{itemize}
+			\item Your choice of variation measure.
+			\item Your choice of FL algorithm and its message passing implementation.
+		\end{itemize}
+	\end{tcolorbox}
+	
+	\section{Numerical Experiments}
+	\label{sec:experiments}
+	\begin{tcolorbox}[colback=gray!10, colframe=black!50, title=Instructions (Remove before submission)]
+		Describe implementation details and analyze results:
+		\begin{itemize}
+			\item Data sources used.
+			\item Model validation, selection, and diagnosis methods (see \cite[Sec.~6.6]{Jung2022}).
+			\item Report training, validation, and test losses.
+		\end{itemize}
+	\end{tcolorbox}
+	
+
+\textbf{Important:} Your report must include a zip archive containing a single 
+Python script along with any necessary data files. Minimize the use of non-standard 
+Python packages to ensure ease of execution and reproducibility.
+
+	
+	\section{Conclusion}
+	\label{sec:conclusion}
+	\begin{tcolorbox}[colback=gray!10, colframe=black!50, title=Instructions (Remove before submission)]
+		\begin{itemize}
+			\item Discuss whether the obtained results solve the problem satisfactorily.
+			\item Identify limitations and suggest potential improvements.
+		\end{itemize}
+	\end{tcolorbox}
+	
+%	\section*{References}
+	\begin{thebibliography}{9}
+		\bibitem{Jung2025} A. Jung, \textit{Federated Learning: From Theory to Practice}, Aalto, 2025. Available: \url{https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf}.
+		\bibitem{Jung2022} A. Jung, \textit{Machine Learning: The Basics}, Springer, 2022.
+	\end{thebibliography}
+	
+\end{document}
