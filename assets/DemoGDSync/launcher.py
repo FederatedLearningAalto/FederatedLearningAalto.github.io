@@ -65,7 +65,10 @@ def visualize_topology(G, topology):
     """
     plt.figure(figsize=(6, 6))
     pos = nx.spring_layout(G, seed=42)
-    nx.draw(G, pos, with_labels=True, node_color='skyblue', edge_color='gray', node_size=1000, font_size=12)
+    # Relabel nodes for visualization (adding 1 to each index)
+    labels = {node: node + 1 for node in G.nodes()}
+# Draw the graph with updated labels
+    nx.draw(G, pos, with_labels=True, labels=labels, node_color='skyblue', edge_color='gray', node_size=1000, font_size=12)
     plt.title("Worker Network Topology")
     plt.show()
 
