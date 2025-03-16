@@ -29,8 +29,8 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
   <tbody>
     <tr>
       <td>Intro/ML Basics</td>
-      <td><a href="https://youtu.be/s6f1rjn5nnU?si=xajIHt-ws5ak8Rgu"> Recording </a></td>
-      <td><a href="https://www.youtube.com/watch?v=25t_lKbVsAc"> Recording </a></td>
+      <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ca801b6e-01fe-4fda-805f-b2a2008a289c"> Recording </a></td>
+      <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c2dd699a-aff3-4d72-879f-b2a200c5bc80"> Recording </a></td>
       <td><a href="{{ site.baseurl }}/slides/Lec_Introduction.pdf">slides</a></td>
      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">MLBasics</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
@@ -38,8 +38,8 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     </tr>
     <tr>
       <td>FL Networks</td>
-      <td><a href="https://youtu.be/oK1--YXu_aA?si=VL-YDCpZxNBv7zXu"> Recording </a></td>
-      <td><a href="https://youtu.be/lwZDuhVmRuI?si=I_SFBa6zPfWJFuwc"> Recording </a>  </td>
+      <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=29884b6d-6540-4ebe-884d-b2a200ed6e9c"> Recording </a></td>
+      <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=df686b78-2526-4c40-9a2a-b2a200f22708"> Recording </a>  </td>
       <td><a href="{{ site.baseurl }}/slides/Lec_FLNetworks.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLNetworks</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 3,7</a></td>
@@ -47,8 +47,8 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     </tr>
     <tr>
       <td>FL Design Principle</td>
-      <td><a href="https://youtu.be/LyZ_jIWlj2g"> Recording </a></td>
-      <td> <a href="https://youtu.be/5SFsbACuteI"> Recording </a> </td>
+      <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5a7927b4-0d86-48d2-81f4-b2a200f42286"> Recording </a></td>
+      <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=54a14b97-2a17-4e36-a6ea-b2a200fb8645"> Recording </a> </td>
       <td><a href="{{ site.baseurl }}/slides/Lec_FLDesignPrinciple.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLDesignPrinciple</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 4</a></td>
