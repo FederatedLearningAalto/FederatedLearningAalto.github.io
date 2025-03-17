@@ -58,8 +58,8 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td>FL Algorithms</td>
       <td>17-Mar</td>
       <td>19-Mar</td>
-      <td><a href="{{ site.baseurl }}/slides/Lec_FLAgorithms">slides</a></td>
-      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
+      <td><a href="{{ site.baseurl }}/slides/Lec_FLAlgorithms">slides</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLAlgorithms</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 5</a></td>
       <td><a href="">31-Mar</a></td>
     </tr>
