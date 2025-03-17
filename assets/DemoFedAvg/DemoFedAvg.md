@@ -10,7 +10,7 @@ For a theoretical background on **FedAvg**, refer to **Chapter 5** of the book [
 ## Components
 This demo consists of three key components:
 
-### 1. **Launcher Script [`FedAvg_launch.py`](./FedAvg_launch.py)**
+### 1. **Launcher Script [`FedAvg_launch.py`](./FedAvg_launcher.py)**
 - Initializes and starts the server process.
 - Launches multiple worker processes for local training.
 - Handles process termination gracefully.
@@ -64,7 +64,7 @@ Modify [`FedAvg_launch.py`](./FedAvg_launch.py) to adjust parameters such as:
 The expected folder structure is as follows:
 ```
 /DemoFedAvg/
-├── FedAvg_launch.py  # Script to launch workers and server
+├── FedAvg_launcher.py  # Script to launch workers and server
 ├── FedAvg_server.py  # Script managing global model updates
 ├── FedAvg_worker.py  # Script handling local training and updates
 ```
