@@ -56,7 +56,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     </tr>
     <tr>
       <td>FL Algorithms</td>
-      <td>17-Mar</td>
+      <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9111b392-f30b-48c9-9de7-b2a301314a48">  Recording </td>
       <td>19-Mar</td>
       <td><a href="{{ site.baseurl }}/slides/Lec_FLAlgorithms.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLAlgorithms</a></td>
