@@ -34,7 +34,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="{{ site.baseurl }}/slides/Lec_Introduction.pdf">slides</a></td>
      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">MLBasics</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
-      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">Ref.Sol.</a><</td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment1">Ref.Sol.</a></td>
     </tr>
     <tr>
       <td>FL Networks</td>
@@ -43,7 +43,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="{{ site.baseurl }}/slides/Lec_FLNetworks.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLNetworks</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 3,7</a></td>
-      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">Ref.Sol.</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment2">Ref.Sol.</a></td>
     </tr>
     <tr>
       <td>FL Design Principle</td>
