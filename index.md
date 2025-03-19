@@ -81,7 +81,8 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 8,9,10</a></td>
       <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">14-Apr</a></td>
     </tr>
-        <td>Project Garage</td>
+      <tr>
+      <td>Project Garage</td>
       <td>07-Apr</td>
       <td>09-Apr</td>
        <td><a href="https://youtu.be/RoKcVYKKxHU">info</a></td>
