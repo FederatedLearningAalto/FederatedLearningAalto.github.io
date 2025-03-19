@@ -34,7 +34,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="{{ site.baseurl }}/slides/Lec_Introduction.pdf">slides</a></td>
      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">MLBasics</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
-      <td><a href="">17-Mar</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">Ref.Sol.</a><</td>
     </tr>
     <tr>
       <td>FL Networks</td>
@@ -43,7 +43,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="{{ site.baseurl }}/slides/Lec_FLNetworks.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLNetworks</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 3,7</a></td>
-      <td><a href="">17-Mar</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">Ref.Sol.</a></td>
     </tr>
     <tr>
       <td>FL Design Principle</td>
@@ -52,7 +52,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="{{ site.baseurl }}/slides/Lec_FLDesignPrinciple.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLDesignPrinciple</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 4</a></td>
-      <td><a href="">31-Mar</a></td>
+      <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">31-Mar</a></td>
     </tr>
     <tr>
       <td>FL Algorithms</td>
@@ -61,7 +61,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="{{ site.baseurl }}/slides/Lec_FLAlgorithms.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLAlgorithms</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 5</a></td>
-      <td><a href="">31-Mar</a></td>
+      <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">31-Mar</a></td>
     </tr>
     <tr>
       <td>FL Flavours</td>
@@ -70,7 +70,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
 	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
          <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 6</a></td>
-      <td><a href="">14-Apr</a></td>
+      <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">14-Apr</a></td>
     </tr>
     <tr>
     <td>Trustworthy FL</td>
@@ -79,7 +79,15 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
 	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 8,9,10</a></td>
-      <td><a href="">14-Apr</a></td>
+      <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">14-Apr</a></td>
+    </tr>
+        <td>Project Garage</td>
+      <td>07-Apr</td>
+      <td>09-Apr</td>
+       <td><a href="https://youtu.be/RoKcVYKKxHU">info</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReportTemplate_25.pdf">Report</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReviewSheet.pdf">Review</a></td>
+      <td><a href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v">-30-Apr</a></td>
     </tr>
   </tbody>
 </table>
