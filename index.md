@@ -87,7 +87,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
        <td><a href="https://youtu.be/RoKcVYKKxHU">info</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReportTemplate_25.pdf">Report</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReviewSheet.pdf">Review</a></td>
-      <td><a href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v">-30-Apr</a></td>
+      <td><a href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v">30-Apr</a></td>
     </tr>
   </tbody>
 </table>
