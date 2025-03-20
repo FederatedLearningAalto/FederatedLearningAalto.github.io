@@ -58,10 +58,10 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td>FL Algorithms</td>
       <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9111b392-f30b-48c9-9de7-b2a301314a48">  Recording </a> </td>
       <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d239feb9-bb00-4c81-a854-b2a60076abe1"> Recording </a> </td>
-      <td><a href="{{ site.baseurl }}/slides/Lec_FLAlgorithms.pdf">slides</a></td>
-      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLAlgorithms</a></td>
-      <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 5</a></td>
-      <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">31-Mar</a></td>
+      <td> <a href="{{ site.baseurl }}/slides/Lec_FLAlgorithms.pdf">slides</a></td>
+      <td> <a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLAlgorithms</a></td>
+      <td> <a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 5</a></td>
+      <td> <a href="https://jupyter.cs.aalto.fi/hub/spawn">31-Mar</a></td>
     </tr>
     <tr>
       <td>FL Flavours</td>
@@ -94,7 +94,6 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
 </table>
 
 ## Acknowledgment
-https://aalto.zoom.us/j/61924584460?pwd=MXJDSHFyemdCOS91aFJxMmhqdXJwQT09
 
 This course is supported by Research Council of Finland (under grants 331197, 363624, 349966), by the Jane and 
 Aatos Erkko Foundation (under grant A835), and by Business Finland within the co-research project FORWARD-LOOKING AI GOVERNANCE
