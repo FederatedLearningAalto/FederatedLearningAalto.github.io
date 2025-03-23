@@ -67,7 +67,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td>FL Flavours</td>
        <td>24-Mar</td>
         <td>26-Mar</td>
-	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+	<td><a href="{{ site.baseurl }}/slides/Lec_FLFlavours.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
          <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 6</a></td>
       <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">14-Apr</a></td>
@@ -95,6 +95,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
 
 ## Acknowledgment
 
-This course is supported by Research Council of Finland (under grants 331197, 363624, 349966), by the Jane and 
-Aatos Erkko Foundation (under grant A835), and by Business Finland within the co-research project FORWARD-LOOKING AI GOVERNANCE
-IN BANKING and INSURANCE (FLAIG) . We acknowledge their support in making this course possible.
+This course is supported by Research Council of Finland (under grants 331197, 363624, 349966), 
+by the Jane and Aatos Erkko Foundation (under grant A835), and by Business Finland within the 
+co-research project FORWARD-LOOKING AI GOVERNANCE IN BANKING and INSURANCE (FLAIG). 
+We acknowledge their support in making this course possible.
