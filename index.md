@@ -83,8 +83,8 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     </tr>
       <tr>
       <td>Project Garage</td>
-      <td>07-Apr</td>
-      <td>09-Apr</td>
+      <td>14-Apr</td>
+      <td>21-Apr</td>
        <td><a href="https://youtu.be/RoKcVYKKxHU">info</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReportTemplate_25.pdf">Report</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReviewSheet.pdf">Review</a></td>
