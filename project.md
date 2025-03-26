@@ -43,7 +43,7 @@ As a student in this course, you must adhere to the **[Aalto University Code of 
 
 ### Rule II - Be Respectful
 - The course aims to provide a **safe and enjoyable learning environment**.
-- Any **disrespectful behavior** (including on course communication platforms) will be **strictly sanctioned** and reported to university authorities.
+- Any **disrespectful behaviour** (including on course communication platforms) will be **strictly sanctioned** and reported to university authorities.
 
 ---
 
@@ -72,11 +72,11 @@ Federated Learning can improve **fraud detection** and **credit risk assessment*
 
 ### FL at the Finnish Meteorological Institute (FMI)
 - FL models can be trained **individually for each FMI weather station** to make local predictions.
-- **Python script for retrieving FMI data:** ![click me](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/slides/Lec_FLNetworksUtils.py)
+- **Python script for retrieving FMI data:** [click me](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/assets/DemoIntroLecture/Lec_FLNetworksUtils.py)
 
 ### FL for Finnish Road Safety
 - Train **local models for traffic cameras** to predict congestion and accidents.
-- **Python script for retrieving camera snapshots:** ![click me](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/slides/GetDataFinTraffic.py)
+- **Python script for retrieving camera snapshots:** [click me](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/assets/DemoIntroLecture/GetDataFinTraffic.py)
 
 ---
 
