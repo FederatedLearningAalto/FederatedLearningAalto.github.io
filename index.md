@@ -76,7 +76,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     <td>Trustworthy FL</td>
       <td>31-Mar</td>
       <td>02-Apr</td>
-	<td><a href="https://www.youtube.com/@alexjung111">TBA</a></td>
+	<td><a href="{{ site.baseurl }}/slides/Lec_TrustworthyFL.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 8,9,10</a></td>
       <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">14-Apr</a></td>
