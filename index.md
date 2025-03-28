@@ -66,7 +66,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
     <tr>
       <td>FL Flavours</td>
        <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bbb6434b-4a0e-405f-afef-b2aa012b956d"> Recording </a>  </td>
-        <td>26-Mar</td>
+        <td>  <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5f16eea8-10cf-48c6-aa0c-b2ae012e7b0d"> Recording </a> </td>
 	<td><a href="{{ site.baseurl }}/slides/Lec_FLFlavours.pdf">slides</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLFlavors</a></td>
          <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 6</a></td>
