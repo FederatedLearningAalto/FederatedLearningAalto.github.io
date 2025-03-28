@@ -71,7 +71,7 @@ plt.plot(min_temp_range, predicted_max_temp_poly, color='black',linestyle='--', 
 # Add axis labels, title, and legend
 plt.xlabel("mintemp [°C]")
 plt.ylabel("maxtemp [°C]")
-plt.title("trained models and training data")
+#plt.title("trained models and training data")
 plt.legend()
 # Save the plot before showing it
 plt.savefig("dtpolyreg.png", dpi=100, bbox_inches='tight')
