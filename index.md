@@ -32,7 +32,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ca801b6e-01fe-4fda-805f-b2a2008a289c"> Recording </a></td>
       <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c2dd699a-aff3-4d72-879f-b2a200c5bc80"> Recording </a></td>
       <td><a href="{{ site.baseurl }}/slides/Lec_Introduction.pdf">slides</a></td>
-     <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">MLBasics</a></td>
+     <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment1">MLBasics</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 1,2,4</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment1">Ref.Sol.</a></td>
     </tr>
@@ -41,7 +41,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=29884b6d-6540-4ebe-884d-b2a200ed6e9c"> Recording </a></td>
       <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=df686b78-2526-4c40-9a2a-b2a200f22708"> Recording </a>  </td>
       <td><a href="{{ site.baseurl }}/slides/Lec_FLNetworks.pdf">slides</a></td>
-      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLNetworks</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment2">FLNetworks</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 3,7</a></td>
       <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment2">Ref.Sol.</a></td>
     </tr>
@@ -50,18 +50,18 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5a7927b4-0d86-48d2-81f4-b2a200f42286"> Recording </a></td>
       <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=54a14b97-2a17-4e36-a6ea-b2a200fb8645"> Recording </a> </td>
       <td><a href="{{ site.baseurl }}/slides/Lec_FLDesignPrinciple.pdf">slides</a></td>
-      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLDesignPrinciple</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment3">FLDesignPrinciple</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 4</a></td>
-      <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">31-Mar</a></td>
+      <td><a href=https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment3">Ref.Sol.</a></td>
     </tr>
     <tr>
       <td>FL Algorithms</td>
       <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9111b392-f30b-48c9-9de7-b2a301314a48">  Recording </a> </td>
       <td> <a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d239feb9-bb00-4c81-a854-b2a60076abe1"> Recording </a> </td>
       <td> <a href="{{ site.baseurl }}/slides/Lec_FLAlgorithms.pdf">slides</a></td>
-      <td> <a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">FLAlgorithms</a></td>
+      <td> <a href=https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment4>FLAlgorithms</a></td>
       <td> <a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 5</a></td>
-      <td> <a href="https://jupyter.cs.aalto.fi/hub/spawn">31-Mar</a></td>
+      <td> <a href=https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments/Assignment4>Ref.Sol.</a></td>
     </tr>
     <tr>
       <td>FL Flavours</td>
