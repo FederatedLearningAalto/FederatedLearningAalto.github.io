@@ -77,7 +77,7 @@ Below are the specific dates for lectures, exercise sessions, and assignment sub
       <td><a href="https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=74f7d54f-1aa6-4a1b-8d4b-b2b10127fc4d"> Recording </a>  </td>
       <td> TBA</td>
 	<td><a href="{{ site.baseurl }}/slides/Lec_TrustworthyFL.pdf">slides</a></td>
-      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">TBA</a></td>
+      <td><a href="https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/tree/master/assignments">Trustworthy FL</a></td>
       <td><a href="https://github.com/alexjungaalto/FederatedLearning/blob/main/material/FLBook.pdf">Ch. 8,9,10</a></td>
       <td><a href="https://jupyter.cs.aalto.fi/hub/spawn">14-Apr</a></td>
     </tr>
