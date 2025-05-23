@@ -29,7 +29,7 @@ studying FL during the course [lectures]({{ site.baseurl }}/) and in the [course
 |--------|------------|
 | **First project report submission** | April 30, 2025 |
 | **Peer grading deadline** | May 15, 2025 |
-| **Final project submission** | May 31, 2025 |
+| **Final project submission** | Sep. 30, 2025 |
 
 ---
 
