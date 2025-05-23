@@ -19,7 +19,7 @@ studying FL during the course [lectures]({{ site.baseurl }}/) and in the [course
 - **Write a project report** using the provided template [tex](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReportTemplate_25.tex) ([pdf](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReportTemplate_25.pdf)).
 - **Submit your report by April 30, 2025**.
 - **Peer-review other students' reports until May 15, 2025**. Current draft for review sheet [pdf](https://github.com/FederatedLearningAalto/FederatedLearningAalto.github.io/blob/master/project/ReviewSheet.pdf)
-- **Submit a revised report and response letter by May 31, 2025**.
+- **Submit a revised report and response letter by Sep 30, 2025**.
 
 ---
 
