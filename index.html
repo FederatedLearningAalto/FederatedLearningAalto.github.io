@@ -3,35 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Federated Learning Course (CS-E4740) — Aalto University</title>
+<title>CS-E4740: Federated Learning — Aalto University</title>
 <meta name="description" content="A free graduate course on federated learning from Aalto University. Lecture recordings, slides, assignments and a free textbook. Taught by Alexander Jung.">
 <link rel="canonical" href="https://federatedlearningaalto.github.io/">
+<link rel="stylesheet" href="jemdoc.css" type="text/css">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://federatedlearningaalto.github.io/">
-<meta property="og:title" content="Federated Learning Course (CS-E4740) — Aalto University">
+<meta property="og:title" content="CS-E4740: Federated Learning — Aalto University">
 <meta property="og:description" content="A free graduate course on federated learning. Recordings, slides, assignments and a free textbook.">
 <meta name="twitter:card" content="summary">
-
-<style>
-  :root { color-scheme: light dark; --fg:#111; --muted:#555; --rule:#ddd; --bg:#fff; }
-  @media (prefers-color-scheme: dark) {
-    :root { --fg:#e8e8e8; --muted:#a0a0a0; --rule:#333; --bg:#111; }
-  }
-  body { margin:0; background:var(--bg); color:var(--fg);
-         font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
-  main { max-width:38rem; margin:0 auto; padding:4rem 1.25rem 5rem; }
-  h1 { font-size:1.7rem; line-height:1.25; margin:0 0 .25rem; font-weight:600; }
-  h2 { font-size:1rem; margin:2.75rem 0 .75rem; font-weight:600; }
-  .sub { color:var(--muted); margin:0 0 2rem; }
-  a { color:inherit; text-underline-offset:2px; }
-  a:hover { text-decoration-thickness:2px; }
-  ul { padding-left:1.1rem; margin:0; }
-  li { margin:0 0 .45rem; }
-  .note { color:var(--muted); font-size:.95rem; }
-  footer { margin-top:3.5rem; padding-top:1.25rem; border-top:1px solid var(--rule);
-           color:var(--muted); font-size:.9rem; }
-</style>
 
 <script type="application/ld+json">
 {
@@ -75,60 +56,138 @@
 </script>
 </head>
 <body>
-<main>
-  <h1>Federated Learning</h1>
-  <p class="sub">CS-E4740 · Aalto University · Alexander Jung</p>
+<table summary="Layout table" id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+  <div class="menu-category">Course</div>
+  <div class="menu-item"><a href="." class="current">Home</a></div>
+  <div class="menu-item"><a href="#lectures">Lectures</a></div>
+  <div class="menu-item"><a href="#textbook">Textbook</a></div>
+  <div class="menu-item"><a href="#requirements">Requirements</a></div>
+  <div class="menu-item"><a href="#prerequisites">Prerequisites</a></div>
 
-  <p>Federated learning trains machine learning models across many devices that never
-     share their raw data. This graduate course builds it from one design principle:
-     a federated system is a graph whose nodes hold local datasets, and the algorithms
-     — FedGD, FedAvg, FedProx, clustered federated learning — all follow from applying
-     different optimization methods to generalized total variation minimization over
-     that graph.</p>
+  <div class="menu-category">Spring 2027</div>
+  <div class="menu-item"><a href="https://register.alexjung.eu/fl-2027/">Register (free)</a></div>
+  <div class="menu-item"><a href="#live">Live sessions</a></div>
 
-  <p>Everything is free and public: recordings, slides, assignments, code and the
-     textbook. Aalto students take it for 5 ECTS; anyone else can follow along at no
-     cost and without enrolling.</p>
+  <div class="menu-category">Material</div>
+  <div class="menu-item"><a href="https://www.youtube.com/@alexjung111">Recordings</a></div>
+  <div class="menu-item"><a href="https://github.com/alexjungaalto/FederatedLearning">GitHub</a></div>
+  <div class="menu-item"><a href="https://arxiv.org/abs/2505.19183">arXiv textbook</a></div>
 
-  <h2>Material</h2>
-  <ul>
-    <li><a href="https://www.youtube.com/@alexjung111">Lecture recordings</a> on YouTube</li>
-    <li><a href="https://arxiv.org/abs/2505.19183">Textbook: <em>Federated Learning — From Theory to Practice</em></a>, free on arXiv</li>
-    <li><a href="https://github.com/alexjungaalto/FederatedLearning">Slides, assignments and code</a> on GitHub</li>
-  </ul>
+  <div class="menu-category">More</div>
+  <div class="menu-item"><a href="https://alexjung.eu">Alexander Jung</a></div>
+  <div class="menu-item"><a href="https://www.aalto.fi/">Aalto University</a></div>
+</td>
+<td id="layout-content">
 
-  <h2>Topics</h2>
-  <ul>
-    <li>From machine learning to federated learning</li>
-    <li>The design principle: empirical graphs and generalized total variation minimization</li>
-    <li>Federated optimization: FedGD, FedAvg, convergence</li>
-    <li>FedProx, FedRelax and personalization</li>
-    <li>Federated clustering and clustered federated learning</li>
-    <li>Legal frameworks: the GDPR and the EU AI Act</li>
-    <li>Robustness: Byzantine attacks, data and model poisoning</li>
-    <li>Privacy: differential privacy, privacy attacks, secure aggregation</li>
-  </ul>
+<div id="toptitle">
+<h1>CS-E4740: Federated Learning</h1>
+<div id="subtitle">Aalto University &middot; Alexander Jung</div>
+</div>
 
-  <h2>Spring 2027</h2>
-  <ul>
-    <li><a href="https://register.alexjung.eu/fl-2027/">Register to follow along</a> —
-        free, no enrolment needed. Assignments, deadlines and session announcements.</li>
-    <li><a href="https://www.youtube.com/watch?v=WhNRMqtVXgM">Live: Ask Me Anything about
-        Federated Learning</a> — Wednesday 18 November 2026, 16:15 Helsinki time.</li>
-  </ul>
-  <p class="note">Lectures run 1 March – 14 April 2027. Aalto students enrol through Sisu;
-     the course sits in periods IV–V and is worth 5 ECTS. The open track carries no
-     credits, graded project or peer review.</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Spring 2027.</b> Lectures run 1 March &ndash; 14 April 2027. Aalto students enrol
+through Sisu. Everyone else can
+<a href="https://register.alexjung.eu/fl-2027/">follow along for free</a> &mdash;
+assignments, deadlines and announcements, no enrolment needed.</p>
+</div></div>
 
-  <h2>Prerequisites</h2>
-  <p class="note">Empirical risk minimization and the basics of supervised learning,
-     gradient descent, linear algebra, and Python with numpy and scikit-learn. Graph
-     theory is developed from scratch.</p>
+<h2 id="description">Catalog description</h2>
 
-  <footer>
-    Maintained by <a href="https://alexjung.eu">Alexander Jung</a>, Department of
-    Computer Science, Aalto University.
-  </footer>
-</main>
+<p>Federated learning trains machine learning models across many devices that never share
+their raw data. The course builds it from a single design principle: a federated system
+is a graph whose nodes hold local datasets, and the algorithms &mdash; FedGD, FedAvg,
+FedProx, clustered federated learning &mdash; follow from applying different optimization
+methods to generalized total variation minimization over that graph.</p>
+
+<p>The course then takes the parts that actually stop practitioners: how many training
+rounds buy how much accuracy, how to find which devices should learn together when you
+cannot see their data, how many malicious participants a protocol survives, what
+differential privacy costs in utility, and when an exchanged model parameter is still
+personal data under the GDPR and the EU AI Act.</p>
+
+<h2 id="objectives">Objectives</h2>
+
+<p>On completion, students can</p>
+<ul>
+<li>model federated learning applications using graphs;</li>
+<li>use total variation minimization as a design principle for federated learning;</li>
+<li>design federated learning algorithms by applying optimization methods to total
+variation minimization;</li>
+<li>analyze the computational and statistical properties of federated learning algorithms.</li>
+</ul>
+
+<h2 id="lectures">Lectures</h2>
+
+<p>Eight modules. All lectures are recorded and
+<a href="https://www.youtube.com/@alexjung111">public on YouTube</a>; slides are in the
+<a href="https://github.com/alexjungaalto/FederatedLearning">course repository</a>.</p>
+
+<ol>
+<li>From machine learning to federated learning</li>
+<li>The FL design principle &mdash; empirical graphs, generalized total variation minimization</li>
+<li>FL algorithms I &mdash; FedGD, FedAvg, convergence</li>
+<li>FL algorithms II &mdash; FedProx, FedRelax</li>
+<li>Federated clustering &mdash; clustered FL, federated <i>k</i>-means</li>
+<li>Legal frameworks &mdash; the GDPR, the EU AI Act, data governance</li>
+<li>Robustness and cyber-security &mdash; Byzantine attacks, data and model poisoning</li>
+<li>Privacy &mdash; differential privacy, privacy attacks, secure aggregation</li>
+</ol>
+
+<h2 id="live">Live sessions</h2>
+
+<p>Alongside the recordings, the spring 2027 edition runs live clinics on YouTube: the
+recordings stay canonical, the live sessions handle what a recording cannot &mdash;
+questions mid-derivation, live debugging, and Q&amp;A. They are open to everyone and
+are recorded.</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=WhNRMqtVXgM">Ask Me Anything about Federated
+Learning</a> &mdash; Wednesday 18 November 2026, 16:15 Helsinki time (14:15 UTC)</li>
+<li>Kickoff, GTVMin, fixed points and convergence, federated clustering (live coding),
+GDPR and the AI Act, and a live poisoning demonstration &mdash; March 2027</li>
+</ul>
+
+<h2 id="textbook">Textbook</h2>
+
+<p>A. Jung, <i>Federated Learning: From Theory to Practice.</i> Free on
+<a href="https://arxiv.org/abs/2505.19183">arXiv:2505.19183</a>. The course also draws on
+<i>Machine Learning: The Basics</i> (Springer, 2022) for the recap in module 1.</p>
+
+<h2 id="requirements">Requirements and grading</h2>
+
+<p>5 ECTS, with a 10 ECTS extended version. Planned assessment for spring 2027:</p>
+<ul>
+<li><b>Assignments, 40 points.</b> Five assignments, one per week, 8 points each. Python
+with numpy and scikit-learn, on real weather-station measurements from the Finnish
+Meteorological Institute.</li>
+<li><b>Project, 60 points.</b> A report and a recorded talk, with anonymous peer review.</li>
+</ul>
+<p>The authoritative version is in Sisu and MyCourses. The free follow-along track
+carries no credits, graded project or peer review &mdash; those require Aalto enrolment.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Empirical risk minimization and the basics of supervised learning; gradient descent;
+linear algebra; Python with numpy and scikit-learn. Graph theory is developed from
+scratch, and no prior knowledge of distributed systems is assumed.</p>
+
+<h2 id="audience">Intended audience</h2>
+
+<p>Master's and doctoral students in computer science, data science and electrical
+engineering, and practitioners who need to train models on data that cannot be
+centralized &mdash; health, industrial, mobile and public-sector data.</p>
+
+<div id="footer">
+<div id="footer-text">
+Maintained by <a href="https://alexjung.eu">Alexander Jung</a>, Department of Computer
+Science, Aalto University.
+</div>
+</div>
+</td>
+</tr>
+</table>
 </body>
 </html>
