@@ -6,4 +6,16 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://federatedlearningaalto.github.io/privacy.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://federatedlearningaalto.github.io/terms.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
 </urlset>
