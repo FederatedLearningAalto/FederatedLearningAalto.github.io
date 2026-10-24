@@ -64,6 +64,7 @@
   <div class="menu-item"><a href="#lectures">Lectures</a></div>
   <div class="menu-item"><a href="#textbook">Textbook</a></div>
   <div class="menu-item"><a href="#requirements">Requirements</a></div>
+  <div class="menu-item"><a href="#assignments">Assignments</a></div>
   <div class="menu-item"><a href="#prerequisites">Prerequisites</a></div>
 
   <div class="menu-category">Spring 2027</div>
@@ -126,30 +127,30 @@ variation minimization;</li>
 <h2 id="lectures">Lectures (tentative)</h2>
 
 <!-- BEGIN generated:lectures -->
-<p>Twelve recordings of about 25 minutes &mdash; one idea each. All lectures are recorded and <a href="https://www.youtube.com/@alexjung111">public on YouTube</a>; slides are in the <a href="https://github.com/alexjungaalto/FederatedLearning">course repository</a>. The list below is the plan for spring 2027 and may still change.</p>
+<p>Twelve recordings of about 25 minutes &mdash; one idea each. All lectures are recorded and public on YouTube (<a href="https://youtube.com/playlist?list=PLrbn2dGrLJK9rB05BObJGIcZP-g2nR28Y">course playlist</a>); slides are in the <a href="https://github.com/alexjungaalto/FederatedLearning">course repository</a>. The list below is the plan for spring 2027 and may still change.</p>
 
 <ol>
-<li>From one device to many</li>
-<li>The empirical graph</li>
-<li>GTVMin</li>
-<li>Bias, variance, and the price of pooling</li>
-<li>Fixed points and contractions</li>
-<li>Gradient descent is the bridge</li>
-<li>Protocols: FedGD, FedAvg, FedProx, FedRelax</li>
-<li>Rounds, error, and the model ladder</li>
-<li>Federated clustering</li>
-<li>Legal frameworks for FL</li>
-<li>Robustness and poisoning</li>
-<li>Privacy</li>
+<li>From one device to many: what averaging buys</li>
+<li>The empirical graph: who talks to whom</li>
+<li>Coupling personal models via GTVMin</li>
+<li>Statistical properties of GTVMin</li>
+<li>FL as fixed-point iterations</li>
+<li>Gradient descent: the bridge to any model</li>
+<li>Asynchronous fixed-point iterations</li>
+<li>Computational and statistical trade-offs</li>
+<li>Federated clustering: who shares a climate</li>
+<li>Legal frameworks: when a parameter is personal data</li>
+<li>Robustness: how many liars can a protocol survive</li>
+<li>Privacy: what an average gives away</li>
 </ol>
 <!-- END generated:lectures -->
 
-<h2 id="live">Live sessions</h2>
+<h2 id="live">Live sessions (tentative)</h2>
 
 <p>Alongside the recordings, the spring 2027 edition runs live clinics on YouTube: the
 recordings stay canonical, the live sessions handle what a recording cannot &mdash;
 questions mid-derivation, live debugging, and Q&amp;A. They are open to everyone and
-are recorded.</p>
+are recorded. Dates may still change until each event is scheduled on YouTube.</p>
 
 <!-- BEGIN generated:live -->
 <ul>
@@ -173,18 +174,30 @@ with the preprint free on <a href="https://arxiv.org/abs/2505.19183">arXiv:2505.
 course also draws on <i>Machine Learning: The Basics</i> (Springer, 2022) for the recap in
 module 1.</p>
 
-<h2 id="requirements">Requirements and grading</h2>
+<h2 id="requirements">Requirements and grading (tentative)</h2>
 
 <p>5 ECTS, with a 10 ECTS extended version. The course is assessed on</p>
 <ul>
-<li><b>Weekly assignments.</b> Python with numpy and scikit-learn, on real
-weather-station measurements from the Finnish Meteorological Institute.</li>
+<li><b>Assignments.</b> Python notebooks on simulated weather-station data; see below.</li>
 <li><b>A project.</b> A report and a recorded talk, with anonymous peer review.</li>
 </ul>
-<p>Assignment deadlines are Sunday 21 March, 4 April, 18 April and 25 April 2027. The
-weighting is not fixed yet; it will be announced here and in MyCourses before the course
-starts. The free follow-along track carries no credits, graded project or peer review
+<p>The weighting is not fixed yet; it will be announced here and in MyCourses before the
+course starts. The free follow-along track carries no credits, graded project or peer review
 &mdash; those require Aalto enrolment.</p>
+
+<h2 id="assignments">Assignments (tentative)</h2>
+
+<!-- BEGIN generated:assignments -->
+<p><b>Tentative.</b> Four assignments, each covering three lectures and opening with the first of them. Python with numpy and scikit-learn, on a simulated user population derived from Finnish Meteorological Institute weather-station data. Dates and content may still change before the course starts.</p>
+
+<table>
+<tr><th>Round</th><th>Lectures</th><th>Opens</th><th>Due</th></tr>
+<tr><td>A1</td><td>L1&ndash;L3: ERM and the sample mean, the empirical graph, GTVMin</td><td>Monday 1 March 2027</td><td>Sunday 21 March 2027</td></tr>
+<tr><td>A2</td><td>L4&ndash;L6: bias/variance and α, fixed points, the gradient-descent bridge</td><td>Wednesday 10 March 2027</td><td>Sunday 4 April 2027</td></tr>
+<tr><td>A3</td><td>L7&ndash;L9: protocols, rounds and the model ladder, federated clustering</td><td>Monday 22 March 2027</td><td>Sunday 18 April 2027</td></tr>
+<tr><td>A4</td><td>L10&ndash;L12: legal, robustness, privacy and the localization attack</td><td>Wednesday 7 April 2027</td><td>Sunday 25 April 2027</td></tr>
+</table>
+<!-- END generated:assignments -->
 
 <h2 id="prerequisites">Prerequisites</h2>
 
