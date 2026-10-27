@@ -7,12 +7,19 @@
 <meta name="description" content="A free graduate course on federated learning from Aalto University. Lecture recordings, slides, assignments and a free textbook. Taught by Alexander Jung.">
 <link rel="canonical" href="https://federatedlearningaalto.github.io/">
 <link rel="stylesheet" href="jemdoc.css" type="text/css">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://federatedlearningaalto.github.io/">
 <meta property="og:title" content="CS-E4740: Federated Learning — Aalto University">
 <meta property="og:description" content="A free graduate course on federated learning. Recordings, slides, assignments and a free textbook.">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://federatedlearningaalto.github.io/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CS-E4740 Federated Learning — a free graduate course at Aalto University">
+<meta name="twitter:card" content="summary_large_image">
 
 <script type="application/ld+json">
 {
@@ -21,6 +28,7 @@
   "name": "Federated Learning (CS-E4740)",
   "courseCode": "CS-E4740",
   "url": "https://federatedlearningaalto.github.io/",
+  "image": "https://federatedlearningaalto.github.io/og-card.png",
   "description": "A graduate course on federated learning: training machine learning models across devices that never share their raw data. Covers the empirical-graph formulation, generalized total variation minimization, FedGD and FedAvg, federated clustering, robustness to poisoning, differential privacy, and the GDPR and EU AI Act obligations that apply to federated systems.",
   "inLanguage": "en",
   "isAccessibleForFree": true,
@@ -39,9 +47,9 @@
   "hasCourseInstance": {
     "@type": "CourseInstance",
     "courseMode": "online",
-    "courseWorkload": "P8W",
+    "courseWorkload": "PT10H",
     "startDate": "2027-03-01",
-    "endDate": "2027-04-14",
+    "endDate": "2027-06-02",
     "inLanguage": "en",
     "instructor": { "@type": "Person", "name": "Alexander Jung" },
     "offers": {
@@ -56,20 +64,23 @@
 </script>
 </head>
 <body>
-<table summary="Layout table" id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
+<div id="tlayout">
+<nav id="layout-menu" aria-label="Course sections">
   <div class="menu-category">Course</div>
   <div class="menu-item"><a href="." class="current">Home</a></div>
+  <div class="menu-item"><a href="#description">About the course</a></div>
   <div class="menu-item"><a href="#lectures">Lectures</a></div>
+  <div class="menu-item"><a href="#live">Live sessions</a></div>
   <div class="menu-item"><a href="#textbook">Textbook</a></div>
   <div class="menu-item"><a href="#requirements">Requirements</a></div>
   <div class="menu-item"><a href="#assignments">Assignments</a></div>
+  <div class="menu-item"><a href="#project">Project</a></div>
   <div class="menu-item"><a href="#prerequisites">Prerequisites</a></div>
+  <div class="menu-item"><a href="#audience">Intended audience</a></div>
 
   <div class="menu-category">Spring 2027</div>
   <div class="menu-item"><a href="https://register.alexjung.eu/fl-2027/">Register (free)</a></div>
-  <div class="menu-item"><a href="#live">Live sessions</a></div>
+  <div class="menu-item"><a href="https://sisu.aalto.fi/student/courseunit/aalto-CU-1151001556-20260801/brochure">Sisu (Aalto students)</a></div>
 
   <div class="menu-category">Material</div>
   <div class="menu-item"><a href="https://www.youtube.com/@alexjung111">Recordings</a></div>
@@ -81,10 +92,10 @@
   <div class="menu-item"><a href="terms.html">Terms of use</a></div>
 
   <div class="menu-category">More</div>
-  <div class="menu-item"><a href="https://alexjung.eu">Alexander Jung</a></div>
+  <div class="menu-item"><a href="https://alexjung.at/">Alexander Jung</a></div>
   <div class="menu-item"><a href="https://www.aalto.fi/">Aalto University</a></div>
-</td>
-<td id="layout-content">
+</nav>
+<main id="layout-content">
 
 <div id="toptitle">
 <h1>CS-E4740: Federated Learning</h1>
@@ -94,7 +105,7 @@
 <div class="infoblock">
 <div class="blockcontent">
 <p><b>Spring 2027.</b> Lectures run 1 March &ndash; 14 April 2027. Aalto students enrol
-through Sisu. Everyone else can
+through <a href="https://sisu.aalto.fi/student/courseunit/aalto-CU-1151001556-20260801/brochure">Sisu</a>. Everyone else can
 <a href="https://register.alexjung.eu/fl-2027/">follow along for free</a> &mdash;
 assignments, deadlines and announcements, no enrolment needed.</p>
 </div></div>
@@ -127,7 +138,7 @@ variation minimization;</li>
 <h2 id="lectures">Lectures (tentative)</h2>
 
 <!-- BEGIN generated:lectures -->
-<p>Twelve recordings of about 25 minutes &mdash; one idea each. All lectures are recorded and public on YouTube (<a href="https://youtube.com/playlist?list=PLrbn2dGrLJK9rB05BObJGIcZP-g2nR28Y">course playlist</a>); slides are in the <a href="https://github.com/alexjungaalto/FederatedLearning">course repository</a>. The list below is the plan for spring 2027 and may still change.</p>
+<p>Twelve recordings of about 25 minutes &mdash; one idea each, free on the release date. None of them is out yet; in the meantime there are the <a href="https://youtube.com/playlist?list=PLrbn2dGrLJK9rB05BObJGIcZP-g2nR28Y">recordings of the 2025 edition</a>, which was organized differently. Slides are in the <a href="https://github.com/alexjungaalto/FederatedLearning">course repository</a>. The list below is the plan for spring 2027 and may still change.</p>
 
 <ol>
 <li>From one device to many: what averaging buys</li>
@@ -147,10 +158,11 @@ variation minimization;</li>
 
 <h2 id="live">Live sessions (tentative)</h2>
 
-<p>Alongside the recordings, the spring 2027 edition runs live clinics on YouTube: the
-recordings stay canonical, the live sessions handle what a recording cannot &mdash;
-questions mid-derivation, live debugging, and Q&amp;A. They are open to everyone and
-are recorded. Dates may still change until each event is scheduled on YouTube.</p>
+<p>Alongside the recordings, the course runs live clinics on YouTube, starting with an
+Ask Me Anything in November 2026. The recordings stay canonical; the live sessions handle
+what a recording cannot &mdash; questions mid-derivation, live debugging, and Q&amp;A.
+They are open to everyone and are themselves recorded. Dates may still change until each
+event is scheduled on YouTube.</p>
 
 <!-- BEGIN generated:live -->
 <ul>
@@ -171,33 +183,58 @@ are recorded. Dates may still change until each event is scheduled on YouTube.</
 <p>A. Jung, <i>Federated Learning: From Theory to Practice.</i> Singapore: Springer
 Nature Singapore, 2026 (<a href="https://doi.org/10.1007/978-981-95-1009-2">doi:10.1007/978-981-95-1009-2</a>),
 with the preprint free on <a href="https://arxiv.org/abs/2505.19183">arXiv:2505.19183</a>. The
-course also draws on <i>Machine Learning: The Basics</i> (Springer, 2022) for the recap in
-module 1.</p>
+course also draws on <i>Machine Learning: The Basics</i> (Springer, 2022) for the recap in the
+first lecture.</p>
 
 <h2 id="requirements">Requirements and grading (tentative)</h2>
 
 <p>5 ECTS, with a 10 ECTS extended version. The course is assessed on</p>
 <ul>
-<li><b>Assignments.</b> Python notebooks on simulated weather-station data; see below.</li>
-<li><b>A project.</b> A report and a recorded talk, with anonymous peer review.</li>
+<li><b>Assignments, 40 points.</b> Four Python notebooks on simulated weather-station
+data, 10 points each; see below.</li>
+<li><b>A project, 60 points.</b> A report and a recorded talk, with anonymous peer
+review; see below.</li>
 </ul>
-<p>The weighting is not fixed yet; it will be announced here and in MyCourses before the
-course starts. The free follow-along track carries no credits, graded project or peer review
-&mdash; those require Aalto enrolment.</p>
+<p>Grade 1 starts at 50 of those 100 points, and the next bands at 60, 70, 80 and 90. The
+split is the plan for spring 2027 and is confirmed in MyCourses before the course starts.
+The free follow-along track carries no credits, graded project or peer review &mdash; those
+require Aalto enrolment.</p>
 
 <h2 id="assignments">Assignments (tentative)</h2>
 
 <!-- BEGIN generated:assignments -->
 <p><b>Tentative.</b> Four assignments, each covering three lectures and opening with the first of them. Python with numpy and scikit-learn, on a simulated user population derived from Finnish Meteorological Institute weather-station data. Dates and content may still change before the course starts.</p>
 
+<div class="tablewrap">
 <table>
-<tr><th>Round</th><th>Lectures</th><th>Opens</th><th>Due</th></tr>
+<tr><th scope="col">Round</th><th scope="col">Lectures</th><th scope="col">Opens</th><th scope="col">Due</th></tr>
 <tr><td>A1</td><td>L1&ndash;L3: ERM and the sample mean, the empirical graph, GTVMin</td><td>Monday 1 March 2027</td><td>Sunday 21 March 2027</td></tr>
 <tr><td>A2</td><td>L4&ndash;L6: bias/variance and α, fixed points, the gradient-descent bridge</td><td>Wednesday 10 March 2027</td><td>Sunday 4 April 2027</td></tr>
 <tr><td>A3</td><td>L7&ndash;L9: protocols, rounds and the model ladder, federated clustering</td><td>Monday 22 March 2027</td><td>Sunday 18 April 2027</td></tr>
 <tr><td>A4</td><td>L10&ndash;L12: legal, robustness, privacy and the localization attack</td><td>Wednesday 7 April 2027</td><td>Sunday 25 April 2027</td></tr>
 </table>
+</div>
 <!-- END generated:assignments -->
+
+<h2 id="project">Project (tentative)</h2>
+
+<!-- BEGIN generated:project -->
+<p><b>Tentative.</b> A report and a recorded talk on a federated learning problem of the student's choosing, with two rounds of anonymous peer review. The milestones below are for students enrolled at Aalto; all dates are in 2027 and may still change.</p>
+
+<div class="tablewrap">
+<table>
+<tr><th scope="col">Milestone</th><th scope="col">Date</th></tr>
+<tr><td>Kickoff (live, public)</td><td>Monday 5 April</td></tr>
+<tr><td>Topic registration</td><td>opens Monday 5 April, closes Sunday 18 April</td></tr>
+<tr><td>Project Garage 1 and 2</td><td>Monday 12 April, Wednesday 14 April</td></tr>
+<tr><td>First submission</td><td>Sunday 2 May</td></tr>
+<tr><td>Peer review 1</td><td>Monday 3 May &ndash; Sunday 9 May</td></tr>
+<tr><td>Second submission incl. recorded talk</td><td>Sunday 23 May</td></tr>
+<tr><td>Peer review 2</td><td>Monday 24 May &ndash; Wednesday 2 June</td></tr>
+<tr><td>Review meetings</td><td>Monday 31 May, Wednesday 2 June</td></tr>
+</table>
+</div>
+<!-- END generated:project -->
 
 <h2 id="prerequisites">Prerequisites</h2>
 
@@ -213,12 +250,11 @@ centralized &mdash; health, industrial, mobile and public-sector data.</p>
 
 <div id="footer">
 <div id="footer-text">
-Maintained by <a href="https://alexjung.eu">Alexander Jung</a>, Department of Computer
+Maintained by <a href="https://alexjung.at/">Alexander Jung</a>, Department of Computer
 Science, Aalto University.
 </div>
 </div>
-</td>
-</tr>
-</table>
+</main>
+</div>
 </body>
 </html>

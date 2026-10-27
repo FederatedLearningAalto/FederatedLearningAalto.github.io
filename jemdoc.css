@@ -1,7 +1,10 @@
 /* jemdoc-style stylesheet, after the default jemdoc.css by Jacob Mattingley
    (jemdoc.jaboc.net) as used by the Stanford EE364a/EE263 course pages.
-   Colours, rules and spacing follow the original; the media query at the end
-   is an addition so the menu stacks on narrow screens. */
+   Colours, rules and spacing follow the original. Three deliberate departures:
+   the two columns are a flex row rather than a layout table (the original's
+   <table summary> and valign are not valid HTML5), content tables are styled
+   (the original only ever had to lay out images), and the media query at the
+   end stacks the menu on narrow screens. */
 
 body {
 	background: white;
@@ -11,9 +14,9 @@ body {
 	color: #000;
 }
 
-table#tlayout {
-	border: none;
-	border-collapse: separate;
+#tlayout {
+	display: flex;
+	align-items: stretch;
 	background: white;
 	width: 100%;
 	max-width: 62em;
@@ -24,10 +27,10 @@ table#tlayout {
 	background: #f6f6f6;
 	padding: 0.5em 8px 1em 8px;
 	font-size: 1.0em;
-	width: 11em;
+	flex: 0 0 11em;
+	box-sizing: border-box;
 	white-space: nowrap;
 	text-align: left;
-	vertical-align: top;
 }
 
 #layout-content {
@@ -35,7 +38,8 @@ table#tlayout {
 	border: none;
 	background: white;
 	text-align: left;
-	vertical-align: top;
+	flex: 1 1 auto;
+	min-width: 0;
 }
 
 #layout-menu a { line-height: 1.5em; margin-left: 0.5em; }
@@ -123,6 +127,24 @@ div.infoblock p + p { margin-top: 0.8em; }
 
 table.imgtable, table.imgtable td { border: none; text-align: left; }
 
+/* Content tables (lecture rounds, project milestones). The original stylesheet
+   never styled these, so they came out as columns of text running together. */
+div.tablewrap { overflow-x: auto; margin-bottom: 0.8em; }
+#layout-content table {
+	border-collapse: collapse;
+	margin: 0.2em 0 0.3em 0;
+	line-height: 1.3;
+}
+#layout-content th, #layout-content td {
+	padding: 0.4em 1.2em 0.4em 0;
+	text-align: left;
+	vertical-align: top;
+}
+#layout-content th { border-bottom: 1px solid #aaaaaa; }
+#layout-content tr + tr td { border-top: 1px solid #e8e8e8; }
+
+p.updated { color: #777; font-size: 0.9em; margin-top: 1.5em; }
+
 div#footer {
 	font-size: small;
 	border-top: 1px solid #c0c0c0;
@@ -132,15 +154,14 @@ div#footer {
 }
 div#footer a { color: #80a0b0; }
 div#footer-text { float: left; padding-bottom: 8px; }
+div#footer::after { content: ""; display: block; clear: both; }
 
 @media print { #layout-menu { display: none; } }
 
 /* Addition to the original: stack the menu above the content on phones. */
 @media (max-width: 36em) {
-	table#tlayout, table#tlayout tbody, table#tlayout tr, table#tlayout td {
-		display: block;
-		width: auto;
-	}
-	#layout-menu { width: auto; white-space: normal; }
+	#tlayout { display: block; width: auto; }
+	#layout-menu { flex: none; width: auto; white-space: normal; }
 	#layout-content { padding: 0 1em; }
+	#layout-content th, #layout-content td { padding-right: 0.9em; }
 }

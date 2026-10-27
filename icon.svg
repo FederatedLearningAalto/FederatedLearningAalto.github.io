@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img"
+     aria-label="CS-E4740 Federated Learning">
+  <rect width="64" height="64" rx="11.5" fill="#527bbd"/>
+  <g stroke="#fff" stroke-width="4.8" stroke-linecap="round">
+    <line x1="32" y1="12.8" x2="14.3" y2="43.9"/>
+    <line x1="32" y1="12.8" x2="49.7" y2="43.9"/>
+    <line x1="14.3" y1="43.9" x2="49.7" y2="43.9"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="32" cy="12.8" r="8.6"/>
+    <circle cx="14.3" cy="43.9" r="8.6"/>
+    <circle cx="49.7" cy="43.9" r="8.6"/>
+  </g>
+</svg>
